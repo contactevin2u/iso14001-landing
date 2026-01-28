@@ -48,11 +48,10 @@ export default function ISO14001CertificationProcess() {
 
             <div className="prose prose-lg max-w-none">
               <div className="bg-primary-50 p-6 rounded-lg mb-8">
-                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Typical Timeline: 3-6 Months</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Typical Timeline: 30 Days</h2>
                 <p className="text-gray-600 mb-0">
-                  The certification timeline depends on your organization&apos;s size, complexity, and current
-                  environmental practices. Small organizations with existing controls may achieve certification
-                  in 3 months, while larger operations typically require 4-6 months.
+                  With our streamlined process, most organizations achieve certification within 30 days.
+                  Our efficient approach ensures you get certified quickly without compromising on quality.
                 </p>
               </div>
 
@@ -61,7 +60,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 1: Free Consultation (Day 1-2)
+                Step 1: Free Consultation (Day 1)
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification journey begins with a free initial consultation where our ISO consultants:
@@ -75,7 +74,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 2: Gap Analysis (Week 1-2)
+                Step 2: Gap Analysis (Days 2-4)
               </h3>
               <p className="text-gray-600 mb-4">
                 A comprehensive gap analysis compares your current practices against ISO 14001:2015 requirements:
@@ -100,7 +99,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 3: Environmental Policy Development (Week 2-3)
+                Step 3: Environmental Policy Development (Days 5-6)
               </h3>
               <p className="text-gray-600 mb-4">
                 Develop an environmental policy that reflects your organization&apos;s commitment:
@@ -114,7 +113,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 4: Environmental Aspects Identification (Week 2-4)
+                Step 4: Environmental Aspects Identification (Days 7-8)
               </h3>
               <p className="text-gray-600 mb-4">
                 Identify and evaluate environmental aspects of your activities, products, and services:
@@ -129,7 +128,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 5: Legal Requirements Register (Week 3-4)
+                Step 5: Legal Requirements Register (Days 9-10)
               </h3>
               <p className="text-gray-600 mb-4">
                 Compile and maintain a register of compliance obligations:
@@ -143,7 +142,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 6: Documentation Development (Week 3-6)
+                Step 6: Documentation Development (Days 11-15)
               </h3>
               <p className="text-gray-600 mb-4">
                 Develop the required EMS documentation:
@@ -162,7 +161,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 7: Training and Awareness (Week 5-8)
+                Step 7: Training and Awareness (Days 16-18)
               </h3>
               <p className="text-gray-600 mb-4">
                 Ensure all personnel understand their environmental responsibilities:
@@ -176,7 +175,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 8: Operational Implementation (Week 5-10)
+                Step 8: Operational Implementation (Days 19-22)
               </h3>
               <p className="text-gray-600 mb-4">
                 Put the EMS into practice across the organization:
@@ -195,7 +194,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 9: Internal Audit (Week 10-12)
+                Step 9: Internal Audit (Days 23-25)
               </h3>
               <p className="text-gray-600 mb-4">
                 Conduct a thorough internal audit to verify EMS effectiveness:
@@ -209,7 +208,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 10: Management Review (Week 11-12)
+                Step 10: Management Review (Day 26)
               </h3>
               <p className="text-gray-600 mb-4">
                 Top management reviews the EMS to ensure continuing suitability and effectiveness:
@@ -227,7 +226,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 11: Stage 1 Audit (Week 12-14)
+                Step 11: Stage 1 Audit (Days 27-28)
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification body conducts a documentation review:
@@ -241,7 +240,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 12: Stage 2 Audit (Week 14-16)
+                Step 12: Stage 2 Audit (Days 29-30)
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification body verifies implementation effectiveness:
