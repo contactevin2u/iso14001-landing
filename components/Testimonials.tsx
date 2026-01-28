@@ -1,22 +1,22 @@
 const testimonials = [
   {
-    name: 'Ahmad Razak',
-    company: 'Precision Manufacturing Sdn Bhd',
+    name: 'Dr. Ahmad Rizal',
+    company: 'Orthowell Solutions',
     role: 'Managing Director',
-    content: 'The team made our ISO 14001 certification journey smooth and straightforward. Their expertise in environmental management systems helped us achieve certification in just 4 months. Our waste reduction improved by 35% within the first year.',
+    content: 'The team made our ISO certification journey smooth and straightforward. Their expertise helped us achieve certification in just 4 weeks. Our waste reduction improved by 35% within the first year.',
+    rating: 5,
+  },
+  {
+    name: 'James Tan',
+    company: 'Alpha Tech Bay Sdn Bhd',
+    role: 'Operations Director',
+    content: 'Excellent consulting service! They understood our unique challenges as a technology company and tailored the documentation accordingly. We\'ve since won several major contracts that required ISO certification.',
     rating: 5,
   },
   {
     name: 'Sarah Lim',
-    company: 'GreenTech Solutions',
-    role: 'Operations Manager',
-    content: 'Excellent consulting service! They understood our unique challenges as a tech company and tailored the EMS documentation accordingly. We\'ve since won three major contracts that required ISO 14001 certification.',
-    rating: 5,
-  },
-  {
-    name: 'Mohd Hafiz',
-    company: 'Seafood Processing Industries',
-    role: 'Quality & Environment Manager',
+    company: 'QCL Meditech Sdn Bhd',
+    role: 'Quality Manager',
     content: 'Professional and thorough approach to certification. The gap analysis was particularly valuable in identifying areas we needed to improve. Their ongoing support helped us pass surveillance audits with zero non-conformities.',
     rating: 5,
   },
@@ -60,7 +60,7 @@ export default function Testimonials() {
           What Our Clients Say
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-4">
-          Trusted by over 127 Malaysian businesses for ISO 14001 certification
+          Trusted by over 127 Malaysian businesses for ISO certification
         </p>
         <div className="flex items-center justify-center gap-1 mb-12">
           {[1, 2, 3, 4, 5].map((star) => (
