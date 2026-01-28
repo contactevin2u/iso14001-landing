@@ -4,7 +4,10 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="text-xl font-bold text-white mb-4">ISO14001Pro</div>
+            <div className="mb-4">
+              <div className="text-2xl font-bold text-white leading-tight">ISO 14001</div>
+              <div className="text-[10px] uppercase tracking-widest text-gray-500">Environmental Management Begins Here</div>
+            </div>
             <p className="text-sm">
               Your trusted partner for ISO 14001 certification.
               We help businesses achieve environmental excellence.
@@ -49,7 +52,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-800 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} ISO14001Pro. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ISO14001. All rights reserved.</p>
         </div>
       </div>
     </footer>

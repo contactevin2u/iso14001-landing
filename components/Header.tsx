@@ -8,9 +8,10 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-16">
-          <a href="#" className="text-xl font-bold text-primary-700">
-            ISO14001Pro
+        <div className="flex items-center justify-between h-20">
+          <a href="#" className="flex flex-col">
+            <span className="text-2xl font-bold text-primary-700 leading-tight">ISO 14001</span>
+            <span className="text-[10px] uppercase tracking-widest text-gray-500">Environmental Management Begins Here</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
