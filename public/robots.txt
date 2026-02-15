@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iso14001.my/sitemap.xml
+Sitemap: https://esgiso.com/sitemap.xml
 
 # Disallow admin and API routes
 Disallow: /api/

@@ -47,7 +47,7 @@ export default function Testimonials() {
   const aggregateRatingSchema = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    '@id': 'https://iso14001.my/#business',
+    '@id': 'https://esgiso.com/#business',
     name: 'ISO 14001 Malaysia — AA Alive Sdn Bhd',
     aggregateRating: {
       '@type': 'AggregateRating',

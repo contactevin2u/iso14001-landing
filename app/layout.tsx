@@ -4,12 +4,12 @@ import './globals.css'
 import StructuredData from '@/components/StructuredData'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://iso14001.my'),
+  metadataBase: new URL('https://esgiso.com'),
   title: {
-    default: 'ISO 14001 Certification Malaysia | Get Certified in 30 Days (2026)',
-    template: '%s | ISO 14001 Certification Malaysia'
+    default: 'ISO 14001 Certification Malaysia | From RM13,000',
+    template: '%s | ISO 14001 Malaysia'
   },
-  description: 'ISO 14001 certification Malaysia from RM 13,000. AA Alive Sdn Bhd — 500+ companies certified, 98% success rate. Expert EMS consultants guide you from gap analysis to certification audit in 30 days. Free consultation.',
+  description: 'Get ISO 14001 certified in Malaysia from RM 13,000 in 30 days. 500+ companies certified, 98% pass rate. Free consultation.',
   keywords: [
     'ISO 14001 certification Malaysia',
     'ISO 14001 Malaysia',
@@ -44,27 +44,27 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_MY',
-    url: 'https://iso14001.my',
-    siteName: 'ISO 14001 Malaysia — AA Alive Sdn Bhd',
-    title: 'ISO 14001 Certification Malaysia | Get Certified in 30 Days (2026)',
-    description: 'ISO 14001 certification from RM 13,000. 500+ companies certified with 98% success rate. Expert environmental management consultants — gap analysis to certification in 30 days.',
+    url: 'https://esgiso.com',
+    siteName: 'ISO 14001 Malaysia',
+    title: 'ISO 14001 Certification Malaysia | From RM13,000',
+    description: 'Get ISO 14001 certified in Malaysia from RM 13,000 in 30 days. 500+ companies certified, 98% pass rate.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'ISO 14001 Certification Malaysia — AA Alive Sdn Bhd',
+        alt: 'ISO 14001 Certification Malaysia',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Certification Malaysia | Get Certified in 30 Days (2026)',
-    description: 'ISO 14001 certification from RM 13,000. 500+ companies certified with 98% success rate. Expert environmental management consultants — gap analysis to certification in 30 days.',
+    title: 'ISO 14001 Certification Malaysia | From RM13,000',
+    description: 'Get ISO 14001 certified in Malaysia from RM 13,000 in 30 days. 500+ companies certified, 98% pass rate.',
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://iso14001.my',
+    canonical: 'https://esgiso.com',
   },
   verification: {
     google: 'your-google-verification-code',

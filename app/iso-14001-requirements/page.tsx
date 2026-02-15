@@ -5,22 +5,22 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
-  title: 'ISO 14001 Requirements | Complete Checklist & Guide',
-  description: 'Complete guide to ISO 14001:2015 requirements. Understand every clause, from context and leadership to operations and continuous improvement. Free checklist included.',
+  title: 'ISO 14001 Requirements | Checklist & Guide 2026',
+  description: 'ISO 14001:2015 requirements checklist. Every clause explained: context, leadership, planning, operations, and audit.',
   keywords: ['ISO 14001 requirements', 'ISO 14001 checklist', 'ISO 14001:2015 clauses', 'EMS requirements'],
   openGraph: {
-    title: 'ISO 14001 Requirements | Complete Checklist & Guide',
-    description: 'Complete guide to ISO 14001:2015 requirements. Understand every clause and what you need for certification.',
-    url: 'https://iso14001.my/iso-14001-requirements',
+    title: 'ISO 14001 Requirements | Checklist & Guide 2026',
+    description: 'ISO 14001:2015 requirements checklist. Every clause explained simply.',
+    url: 'https://esgiso.com/iso-14001-requirements',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Requirements | Complete Checklist & Guide',
-    description: 'Complete guide to ISO 14001:2015 requirements and clauses.',
+    title: 'ISO 14001 Requirements | Checklist & Guide 2026',
+    description: 'ISO 14001:2015 requirements checklist. Every clause explained.',
   },
   alternates: {
-    canonical: 'https://iso14001.my/iso-14001-requirements',
+    canonical: 'https://esgiso.com/iso-14001-requirements',
   },
 }
 

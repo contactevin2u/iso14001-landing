@@ -5,22 +5,22 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
-  title: 'ISO 14001 Certification Malaysia | EMS Certification Experts',
-  description: 'Get ISO 14001 certification in Malaysia with expert guidance. Our EMS consultants have helped 100+ Malaysian companies achieve environmental management system certification.',
+  title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
+  description: 'ISO 14001 certification in Malaysia with 500+ companies certified. Expert EMS consultants, 98% pass rate. From RM 13,000.',
   keywords: ['ISO 14001 certification Malaysia', 'EMS certification Malaysia', 'environmental management system Malaysia', 'ISO 14001 consultant Malaysia'],
   openGraph: {
-    title: 'ISO 14001 Certification Malaysia | EMS Certification Experts',
-    description: 'Get ISO 14001 certification in Malaysia with expert guidance. Our EMS consultants have helped 100+ Malaysian companies achieve environmental management system certification.',
-    url: 'https://iso14001.my/iso-14001-certification-malaysia',
+    title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
+    description: 'ISO 14001 certification in Malaysia with 500+ companies certified. Expert EMS consultants, 98% pass rate.',
+    url: 'https://esgiso.com/iso-14001-certification-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Certification Malaysia | EMS Certification Experts',
-    description: 'Get ISO 14001 certification in Malaysia with expert guidance.',
+    title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
+    description: 'ISO 14001 certification in Malaysia. 500+ companies certified, 98% pass rate.',
   },
   alternates: {
-    canonical: 'https://iso14001.my/iso-14001-certification-malaysia',
+    canonical: 'https://esgiso.com/iso-14001-certification-malaysia',
   },
 }
 

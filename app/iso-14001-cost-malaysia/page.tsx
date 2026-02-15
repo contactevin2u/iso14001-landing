@@ -5,22 +5,22 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
-  title: 'ISO 14001 Cost Malaysia | Certification Pricing Guide 2024',
-  description: 'ISO 14001 certification cost in Malaysia from RM 13,000. Transparent pricing breakdown including consulting fees, certification body costs, and ongoing maintenance.',
+  title: 'ISO 14001 Cost Malaysia | From RM13,000 (2026)',
+  description: 'ISO 14001 certification cost in Malaysia from RM 13,000. Full pricing breakdown: consulting, audit fees, and maintenance.',
   keywords: ['ISO 14001 cost Malaysia', 'ISO 14001 price', 'ISO 14001 certification cost', 'EMS certification price Malaysia'],
   openGraph: {
-    title: 'ISO 14001 Cost Malaysia | Certification Pricing Guide 2024',
-    description: 'ISO 14001 certification cost in Malaysia from RM 13,000. Transparent pricing breakdown for your business.',
-    url: 'https://iso14001.my/iso-14001-cost-malaysia',
+    title: 'ISO 14001 Cost Malaysia | From RM13,000 (2026)',
+    description: 'ISO 14001 cost in Malaysia from RM 13,000. Full pricing breakdown.',
+    url: 'https://esgiso.com/iso-14001-cost-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Cost Malaysia | Certification Pricing Guide 2024',
-    description: 'ISO 14001 certification cost in Malaysia from RM 13,000.',
+    title: 'ISO 14001 Cost Malaysia | From RM13,000 (2026)',
+    description: 'ISO 14001 cost Malaysia from RM 13,000. Full pricing guide.',
   },
   alternates: {
-    canonical: 'https://iso14001.my/iso-14001-cost-malaysia',
+    canonical: 'https://esgiso.com/iso-14001-cost-malaysia',
   },
 }
 

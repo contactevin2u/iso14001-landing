@@ -5,22 +5,22 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
-  title: 'ISO 14001 Benefits | Advantages of Environmental Certification',
-  description: 'Discover the benefits of ISO 14001 certification: cost savings, regulatory compliance, competitive advantage, and improved environmental performance for your business.',
+  title: 'ISO 14001 Benefits | Why Your Business Needs It',
+  description: 'ISO 14001 benefits: cut costs 10-15%, win green contracts, meet DOE compliance. See why 500+ Malaysian businesses got certified.',
   keywords: ['ISO 14001 benefits', 'advantages of ISO 14001', 'environmental certification benefits', 'EMS benefits'],
   openGraph: {
-    title: 'ISO 14001 Benefits | Advantages of Environmental Certification',
-    description: 'Discover the benefits of ISO 14001 certification: cost savings, regulatory compliance, competitive advantage, and improved environmental performance.',
-    url: 'https://iso14001.my/iso-14001-benefits',
+    title: 'ISO 14001 Benefits | Why Your Business Needs It',
+    description: 'ISO 14001 benefits: cut costs 10-15%, win green contracts, meet DOE compliance.',
+    url: 'https://esgiso.com/iso-14001-benefits',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Benefits | Advantages of Environmental Certification',
-    description: 'Discover the benefits of ISO 14001 certification for your business.',
+    title: 'ISO 14001 Benefits | Why Your Business Needs It',
+    description: 'ISO 14001 benefits: cut costs, win contracts, meet DOE compliance.',
   },
   alternates: {
-    canonical: 'https://iso14001.my/iso-14001-benefits',
+    canonical: 'https://esgiso.com/iso-14001-benefits',
   },
 }
 

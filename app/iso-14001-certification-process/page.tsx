@@ -5,22 +5,22 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
-  title: 'ISO 14001 Certification Process | Step-by-Step Guide',
-  description: 'Complete guide to the ISO 14001 certification process. Learn each step from gap analysis to certification audit, with timelines and what to expect at each stage.',
+  title: 'ISO 14001 Process | 6 Steps to Get Certified',
+  description: 'ISO 14001 certification process in 6 steps. Gap analysis to audit in 30 days. See timelines and what to expect.',
   keywords: ['ISO 14001 certification process', 'how to get ISO 14001', 'ISO 14001 steps', 'EMS implementation'],
   openGraph: {
-    title: 'ISO 14001 Certification Process | Step-by-Step Guide',
-    description: 'Complete guide to the ISO 14001 certification process. Learn each step from gap analysis to certification audit.',
-    url: 'https://iso14001.my/iso-14001-certification-process',
+    title: 'ISO 14001 Process | 6 Steps to Get Certified',
+    description: 'ISO 14001 certification process in 6 steps. Gap analysis to audit in 30 days.',
+    url: 'https://esgiso.com/iso-14001-certification-process',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Certification Process | Step-by-Step Guide',
-    description: 'Complete guide to the ISO 14001 certification process.',
+    title: 'ISO 14001 Process | 6 Steps to Get Certified',
+    description: 'ISO 14001 certification in 6 steps. 30 days to certified.',
   },
   alternates: {
-    canonical: 'https://iso14001.my/iso-14001-certification-process',
+    canonical: 'https://esgiso.com/iso-14001-certification-process',
   },
 }
 

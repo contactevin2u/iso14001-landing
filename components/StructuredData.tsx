@@ -2,11 +2,11 @@ export default function StructuredData() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    '@id': 'https://iso14001.my/#organization',
+    '@id': 'https://esgiso.com/#organization',
     name: 'AA Alive Sdn Bhd',
     legalName: 'AA Alive Sdn. Bhd.',
-    url: 'https://iso14001.my',
-    logo: 'https://iso14001.my/logo.png',
+    url: 'https://esgiso.com',
+    logo: 'https://esgiso.com/logo.png',
     description: 'Malaysia\'s trusted ISO 14001 environmental management system certification consultants. 500+ companies certified with 98% success rate since 2016.',
     foundingDate: '2016-10-06',
     founder: {
@@ -56,7 +56,7 @@ export default function StructuredData() {
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    '@id': 'https://iso14001.my/#founder',
+    '@id': 'https://esgiso.com/#founder',
     name: 'Evin Lim',
     jobTitle: 'Managing Director & Founder',
     description: 'Founder of AA Alive Sdn Bhd since 2016, expert in ISO certification and environmental management systems in Malaysia.',
@@ -64,7 +64,7 @@ export default function StructuredData() {
     worksFor: {
       '@type': 'Organization',
       name: 'AA Alive Sdn Bhd',
-      url: 'https://iso14001.my',
+      url: 'https://esgiso.com',
     },
     sameAs: [
       'https://my.linkedin.com/in/evin-lim-362a84258',
@@ -74,14 +74,14 @@ export default function StructuredData() {
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    '@id': 'https://iso14001.my/#business',
+    '@id': 'https://esgiso.com/#business',
     name: 'ISO 14001 Malaysia — AA Alive Sdn Bhd',
-    image: 'https://iso14001.my/logo.png',
-    url: 'https://iso14001.my',
+    image: 'https://esgiso.com/logo.png',
+    url: 'https://esgiso.com',
     telephone: '+601124102070',
     email: 'contact@evin2u.com',
     founder: {
-      '@id': 'https://iso14001.my/#founder',
+      '@id': 'https://esgiso.com/#founder',
     },
     address: {
       '@type': 'PostalAddress',
@@ -154,10 +154,10 @@ export default function StructuredData() {
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    '@id': 'https://iso14001.my/#service',
+    '@id': 'https://esgiso.com/#service',
     name: 'ISO 14001 Certification Consulting Malaysia',
     provider: {
-      '@id': 'https://iso14001.my/#organization',
+      '@id': 'https://esgiso.com/#organization',
     },
     serviceType: 'ISO Certification Consulting',
     description: 'Complete ISO 14001:2015 environmental management system certification consulting — gap analysis, EMS documentation, staff training, internal audit, and certification audit preparation. Get certified in 30 days.',
@@ -173,18 +173,18 @@ export default function StructuredData() {
       availability: 'https://schema.org/InStock',
       description: 'Complete ISO 14001 certification package starting from RM 13,000',
     },
-    termsOfService: 'https://iso14001.my/terms',
+    termsOfService: 'https://esgiso.com/terms',
     providerMobility: 'dynamic',
   }
 
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    '@id': 'https://iso14001.my/#website',
+    '@id': 'https://esgiso.com/#website',
     name: 'ISO 14001 Malaysia',
-    url: 'https://iso14001.my',
+    url: 'https://esgiso.com',
     publisher: {
-      '@id': 'https://iso14001.my/#organization',
+      '@id': 'https://esgiso.com/#organization',
     },
     description: 'ISO 14001 environmental management system certification consulting in Malaysia by AA Alive Sdn Bhd.',
     inLanguage: 'en-MY',

@@ -15,7 +15,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://iso14001.my${item.href}`,
+      item: `https://esgiso.com${item.href}`,
     })),
   }
 
