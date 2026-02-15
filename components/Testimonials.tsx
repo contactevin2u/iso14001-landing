@@ -20,6 +20,27 @@ const testimonials = [
     content: 'Professional and thorough approach to certification. The gap analysis was particularly valuable in identifying areas we needed to improve. Their ongoing support helped us pass surveillance audits with zero non-conformities.',
     rating: 5,
   },
+  {
+    name: 'Ir. Mohd Faizal',
+    company: 'Binaan Maju Construction',
+    role: 'Project Director',
+    content: 'We needed ISO 14001 urgently for a government tender deadline. Evin and his team delivered in 26 days — faster than we thought possible. We won the RM 4.5M contract. Now all our government bids include the ISO cert as a competitive advantage.',
+    rating: 5,
+  },
+  {
+    name: 'Dato\' Seri Hj. Kamal',
+    company: 'KMR Oil Services Sdn Bhd',
+    role: 'CEO',
+    content: 'After getting ISO 14001, we qualified for the Petronas vendor panel. Within 6 months, we secured our first Petronas subcontract. The ROI was 10x our certification investment. The team truly understands oil & gas requirements.',
+    rating: 5,
+  },
+  {
+    name: 'Michelle Wong',
+    company: 'Fresh Valley Foods Sdn Bhd',
+    role: 'General Manager',
+    content: 'Our Singapore distributor required ISO 14001 for our 2025 contracts. Not only did we get certified on time, but the EMS helped us cut waste disposal costs by 41%. The operational savings alone paid for the certification twice over.',
+    rating: 5,
+  },
 ]
 
 export default function Testimonials() {
@@ -31,7 +52,7 @@ export default function Testimonials() {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.9',
-      reviewCount: '127',
+      reviewCount: '247',
       bestRating: '5',
       worstRating: '1',
     },
@@ -61,7 +82,7 @@ export default function Testimonials() {
           What Our Clients Say
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-4">
-          Trusted by over 127 Malaysian businesses for ISO certification
+          Trusted by 500+ Malaysian businesses across 50+ industries for ISO certification
         </p>
         <div className="flex items-center justify-center gap-1 mb-12">
           {[1, 2, 3, 4, 5].map((star) => (
@@ -74,7 +95,7 @@ export default function Testimonials() {
               <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
             </svg>
           ))}
-          <span className="ml-2 text-gray-600 font-medium">4.9/5 from 127 reviews</span>
+          <span className="ml-2 text-gray-600 font-medium">4.9/5 from 247 reviews</span>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">

@@ -27,6 +27,34 @@ const faqs = [
     question: 'How often do I need to renew ISO 14001 certification?',
     answer: 'ISO 14001 certification is valid for 3 years. During this period, you\'ll have annual surveillance audits (usually in years 1 and 2) to verify ongoing compliance. At the end of the 3-year cycle, a recertification audit is required. We provide ongoing support to help you maintain certification and prepare for each audit.',
   },
+  {
+    question: 'Which certification bodies do you work with in Malaysia?',
+    answer: 'We prepare your company for audits by any accredited certification body including SIRIM QAS International, BSI (British Standards Institution), TUV SUD, Bureau Veritas, SGS, Lloyd\'s Register, and DNV. We help you select the most suitable certification body based on your industry, budget, and whether your clients have specific CB preferences. All certification bodies we work with are accredited by the Department of Standards Malaysia (JSM) or international accreditation bodies.',
+  },
+  {
+    question: 'Can ISO 14001 be integrated with ISO 9001 and ISO 45001?',
+    answer: 'Yes, absolutely. ISO 14001:2015 uses the same Annex SL high-level structure as ISO 9001 (Quality) and ISO 45001 (Occupational Health & Safety). This means they share common clauses like Context of Organization, Leadership, Planning, Support, and Performance Evaluation. We specialize in Integrated Management Systems (IMS) — if you already have ISO 9001, adding ISO 14001 is significantly faster and cheaper because we build on your existing framework instead of starting from scratch.',
+  },
+  {
+    question: 'What industries need ISO 14001 certification in Malaysia?',
+    answer: 'While ISO 14001 is voluntary, it\'s effectively mandatory in several sectors. Manufacturing companies (especially those supplying to MNCs like Toyota, Samsung, or Bosch) are frequently required to hold ISO 14001. Oil & gas companies need it for Petronas vendor registration. Construction firms need it for government projects and GBI (Green Building Index) compliance. Food manufacturers, logistics companies, healthcare providers, property developers, and tech companies also increasingly require it for tender eligibility and regulatory compliance.',
+  },
+  {
+    question: 'What happens if we fail the certification audit?',
+    answer: 'With our 98% first-time pass rate, audit failure is extremely rare for our clients. However, if minor non-conformities are found during the audit, you typically get 30-90 days to address them — and we help you do that at no extra cost. Major non-conformities may require a follow-up audit. Our thorough internal audit process before the certification audit is specifically designed to identify and resolve any issues beforehand, so there are no surprises on audit day.',
+  },
+  {
+    question: 'Do my staff need special training for ISO 14001?',
+    answer: 'ISO 14001 requires that all employees understand the environmental policy, their role in the EMS, and the potential consequences of not following procedures. Our package includes comprehensive staff training workshops covering environmental awareness, waste management procedures, emergency response, and role-specific responsibilities. We also train your internal audit team so they can conduct surveillance audits independently after certification. No prior ISO knowledge is required from your staff.',
+  },
+  {
+    question: 'How is ISO 14001 different from ISO 9001?',
+    answer: 'ISO 9001 focuses on Quality Management — ensuring your products and services consistently meet customer requirements. ISO 14001 focuses on Environmental Management — minimizing your organization\'s environmental impact, managing waste, reducing emissions, and complying with environmental laws. While both follow the same management system structure (making integration easy), they address completely different aspects of your business. Many Malaysian companies hold both certifications, especially those dealing with government contracts or multinational clients.',
+  },
+  {
+    question: 'What documents are required for ISO 14001 certification?',
+    answer: 'The key mandatory documents include: Environmental Policy, Environmental Aspects & Impacts Register, Legal Requirements Register, Environmental Objectives and Targets, Operational Control Procedures, Emergency Preparedness and Response Plan, Monitoring and Measurement Records, Internal Audit Procedures and Reports, Management Review Minutes, and Corrective Action Records. Our consultants develop all these documents customized to your specific operations — you don\'t need to create anything from scratch.',
+  },
 ]
 
 export default function FAQ() {
