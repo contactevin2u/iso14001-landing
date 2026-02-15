@@ -36,11 +36,11 @@ export default function Benefits() {
     <section id="benefits" className="py-20 px-4 sm:px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          Why ISO 14001 Matters
+          Benefits of ISO 14001 Certification for Malaysian Businesses
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          Certification delivers real, measurable benefits for your business and the environment.
-          Discover why leading Malaysian companies choose ISO 14001.
+          Certification delivers real, measurable ROI — from cost savings to winning green contracts.
+          Discover why 500+ Malaysian companies trust us for ISO 14001.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -25,8 +25,9 @@ const testimonials = [
 export default function Testimonials() {
   const aggregateRatingSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: 'ISO 14001 Malaysia',
+    '@type': 'ProfessionalService',
+    '@id': 'https://iso14001.my/#business',
+    name: 'ISO 14001 Malaysia — AA Alive Sdn Bhd',
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.9',

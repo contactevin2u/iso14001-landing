@@ -42,10 +42,10 @@ export default function WhyChooseUs() {
     <section id="why-us" className="py-20 px-4 sm:px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          Why Choose Us
+          Why Choose AA Alive for ISO 14001 Certification
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          Partner with experts who are committed to your success
+          Founded by Evin Lim in 2016 — you work directly with our expert team, not outsourced consultants
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">

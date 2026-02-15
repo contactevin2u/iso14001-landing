@@ -2,6 +2,12 @@
 
 import { useState } from 'react'
 
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean
+  }
+}
+
 const WHATSAPP_NUMBER = '+601124102070'
 
 export default function Contact() {
@@ -19,7 +25,22 @@ export default function Contact() {
     const text = `New Enquiry ISO 14001\nName: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage:\n${formData.message}`
 
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`
-    window.open(url, '_blank')
+
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(url)
+    } else {
+      window.open(url, '_blank')
+    }
+  }
+
+  const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    const url = `https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}`
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(url)
+    } else {
+      window.open(url, '_blank')
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -32,11 +53,11 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="text-white">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Let&apos;s Discuss Your Certification
+              Book Your Free ISO 14001 Consultation Today
             </h2>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Share your details and one of our consultants will get back to you
-              to understand your needs and answer any questions.
+              Share your details and our ISO 14001 consultant will get back to you
+              within 24 hours. Free gap analysis discussion included.
             </p>
 
             <div className="space-y-6">
@@ -78,6 +99,7 @@ export default function Contact() {
                   <div className="font-medium text-gray-200">WhatsApp</div>
                   <a
                     href="https://wa.me/601124102070"
+                    onClick={handleWhatsAppClick}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"

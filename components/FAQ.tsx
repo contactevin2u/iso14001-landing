@@ -53,10 +53,10 @@ export default function FAQ() {
       />
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          Frequently Asked Questions
+          ISO 14001 Malaysia — Frequently Asked Questions
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          Everything you need to know about ISO 14001 certification in Malaysia
+          Everything you need to know about ISO 14001 certification cost, process, and requirements in Malaysia
         </p>
 
         <div className="space-y-4">

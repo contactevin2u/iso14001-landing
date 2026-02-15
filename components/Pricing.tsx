@@ -14,10 +14,10 @@ export default function Pricing() {
     <section id="pricing" className="py-20 px-4 sm:px-6 bg-gray-50">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          Simple, All-Inclusive Pricing
+          ISO 14001 Certification Cost in Malaysia
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          One package. Everything you need to get ISO 14001 certified.
+          Transparent, all-inclusive pricing. No hidden fees — everything you need to get certified.
         </p>
 
         <div className="bg-white rounded-2xl p-8 sm:p-12 border-2 border-primary-600 shadow-xl">

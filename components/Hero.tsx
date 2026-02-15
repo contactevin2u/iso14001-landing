@@ -1,19 +1,42 @@
+'use client'
+
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean
+  }
+}
+
 export default function Hero() {
+  const waUrl = 'https://wa.me/601124102070'
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(waUrl)
+    } else {
+      window.open(waUrl, '_blank')
+    }
+  }
+
   return (
     <section className="pt-32 pb-20 px-4 sm:px-6 bg-gradient-to-b from-primary-50 to-white">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-          ISO 14001 Certification
-          <span className="block text-primary-600">Made Simple</span>
+          Your Competitors Are Already
+          <span className="block text-primary-600">ISO 14001 Certified. Are You?</span>
         </h1>
 
-        <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-          We guide your business through every step of ISO 14001 certification.
-          Demonstrate your commitment to environmental responsibility and sustainability.
+        <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-4 leading-relaxed">
+          Get ISO 14001 certified in Malaysia from <strong className="text-gray-900">RM 13,000</strong> — in as fast as <strong className="text-gray-900">30 days</strong>.
+          We handle everything from gap analysis to certification audit.
+        </p>
+        <p className="text-sm text-gray-500 mb-10">
+          Trusted by 500+ Malaysian businesses. 98% first-time certification success rate.
         </p>
 
         <a
-          href="https://wa.me/601124102070"
+          href={waUrl}
+          onClick={handleClick}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"

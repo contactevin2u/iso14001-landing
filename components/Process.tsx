@@ -48,11 +48,11 @@ export default function Process() {
     <section id="process" className="py-20 px-4 sm:px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          Our Certification Process
+          How We Get You ISO 14001 Certified in 30 Days
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          A clear, step-by-step approach to get you certified. Most organizations achieve
-          certification within 30 days.
+          A proven, step-by-step process used to certify 500+ Malaysian businesses.
+          From initial consultation to certification audit — we handle everything.
         </p>
 
         <div className="space-y-8">
