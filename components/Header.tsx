@@ -10,10 +10,10 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex flex-col">
-            <span className="text-2xl font-bold text-primary-700 leading-tight">ISO 14001</span>
-            <span className="text-[10px] uppercase tracking-widest text-gray-500">Environmental Management Begins Here</span>
+        <div className="flex items-center justify-between h-16 sm:h-20">
+          <Link href="/" className="flex flex-col min-h-0">
+            <span className="text-xl sm:text-2xl font-bold text-primary-700 leading-tight">ISO 14001</span>
+            <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-gray-500 hidden xs:block">Environmental Management Begins Here</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
@@ -85,7 +85,7 @@ export default function Header() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2"
+            className="md:hidden p-3 -mr-2 touch-manipulation"
             aria-label="Menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
