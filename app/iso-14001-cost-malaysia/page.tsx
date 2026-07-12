@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Cost Malaysia | From RM13,000 (2026)',
@@ -41,9 +42,13 @@ export default function ISO14001CostMalaysia() {
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
               ISO 14001 Certification Cost in Malaysia
             </h1>
+            <p className="text-sm text-gray-500 mb-4">Last updated: {CONTENT_LAST_UPDATED}</p>
             <p className="text-xl text-gray-600 mb-8">
-              A transparent guide to ISO 14001 certification costs in Malaysia. Understand all the
-              investment components including consulting fees, certification body costs, and ongoing maintenance.
+              ISO 14001 certification consulting in Malaysia costs from RM 13,000 and takes around
+              30 days for most SMEs. Certification body audit fees are charged separately, typically
+              RM 4,000 to RM 12,000 for the initial Stage 1 and Stage 2 audits. Below is the full
+              breakdown of every investment component — consulting fees, certification body costs,
+              and ongoing maintenance.
             </p>
 
             <div className="prose prose-lg max-w-none">
@@ -314,14 +319,15 @@ export default function ISO14001CostMalaysia() {
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
                 <li>10-20% reduction in energy costs</li>
                 <li>20-40% reduction in waste disposal costs</li>
-                <li>Reduced risk of regulatory fines and penalties</li>
+                <li>Reduced risk of fines and penalties under DOE enforcement of the Environmental Quality Act 1974</li>
                 <li>Access to new contracts and business opportunities</li>
                 <li>Lower insurance premiums</li>
                 <li>Improved operational efficiency</li>
               </ul>
               <p className="text-gray-600 mb-4">
-                Many of our clients report payback within 12-18 months of certification through cost savings
-                and new business wins. Learn more about the <a href="/iso-14001-benefits" className="text-primary-600 hover:underline">benefits of ISO 14001 certification</a>.
+                Most clients report payback within 12&ndash;18 months of certification through cost
+                savings and new business wins (across 500+ Malaysian client engagements since 2016 —
+                AA Alive internal data). Learn more about the <a href="/iso-14001-benefits" className="text-primary-600 hover:underline">benefits of ISO 14001 certification</a>.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">

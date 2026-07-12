@@ -1,3 +1,5 @@
+import { CONTENT_LAST_UPDATED } from '@/lib/constants'
+
 const tiers = [
   {
     name: 'SME',
@@ -61,9 +63,10 @@ export default function Pricing() {
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
           ISO 14001 & ESG Certification Packages
         </h2>
-        <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
+        <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-4">
           Transparent pricing. No hidden fees. Choose the package that fits your business.
         </p>
+        <p className="text-sm text-gray-500 text-center mb-12">Last updated: {CONTENT_LAST_UPDATED}</p>
 
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
           {tiers.map((tier, index) => (
