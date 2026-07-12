@@ -9,12 +9,16 @@ declare global {
 }
 
 export default function UrgencyBanner() {
-  const [dismissed, setDismissed] = useState(true)
+  // CLS fix: default to visible so the banner is part of the server-rendered
+  // HTML and occupies its space from the first paint. Previously it defaulted
+  // to hidden and was inserted after hydration, pushing <main> down (0.136 CLS
+  // on mobile). The inline <script> below hides it pre-paint for sessions
+  // where it was already dismissed, so those visitors get no flash either.
+  const [dismissed, setDismissed] = useState(false)
 
   useEffect(() => {
-    const wasDismissed = sessionStorage.getItem('urgency-banner-dismissed')
-    if (!wasDismissed) {
-      setDismissed(false)
+    if (sessionStorage.getItem('urgency-banner-dismissed')) {
+      setDismissed(true)
     }
   }, [])
 
@@ -37,7 +41,8 @@ export default function UrgencyBanner() {
   if (dismissed) return null
 
   return (
-    <div className="bg-amber-600 text-white py-2.5 px-4 text-center text-sm relative">
+    <>
+    <div id="urgency-banner" className="bg-amber-600 text-white py-2.5 px-4 text-center text-sm relative">
       <div className="max-w-4xl mx-auto flex items-center justify-center gap-2 flex-wrap">
         <span className="font-medium">
           MNCs Are Dropping Non-ESG Suppliers. Only 5 Slots Left This Month.
@@ -65,5 +70,14 @@ export default function UrgencyBanner() {
         </svg>
       </button>
     </div>
+    {/* Runs during HTML parse, before first paint: hides the SSR'd banner for
+        sessions where it was already dismissed (avoids flash + reverse shift). */}
+    <script
+      dangerouslySetInnerHTML={{
+        __html:
+          "try{if(sessionStorage.getItem('urgency-banner-dismissed')){var u=document.getElementById('urgency-banner');if(u)u.style.display='none'}}catch(e){}",
+      }}
+    />
+    </>
   )
 }

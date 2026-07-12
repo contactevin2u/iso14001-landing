@@ -1,3 +1,5 @@
+import { testimonials } from '@/components/Testimonials'
+
 export default function StructuredData() {
   const organizationSchema = {
     '@context': 'https://schema.org',
@@ -10,11 +12,7 @@ export default function StructuredData() {
     description: 'Malaysia\'s trusted ISO 14001 environmental management system certification consultants. 500+ companies certified with 98% success rate since 2016.',
     foundingDate: '2016-10-06',
     founder: {
-      '@type': 'Person',
       '@id': 'https://esgiso.com/#founder',
-      name: 'Evin Lim',
-      jobTitle: 'Managing Director & Founder',
-      url: 'https://my.linkedin.com/in/evin-lim-362a84258',
     },
     award: 'Superbrands Malaysia (2025)',
     contactPoint: [
@@ -42,9 +40,6 @@ export default function StructuredData() {
       addressCountry: 'MY',
     },
     sameAs: [
-      'https://www.facebook.com/katilhospitalmy',
-      'https://www.instagram.com/katilhospitalmy',
-      'https://www.tiktok.com/@katilhospitalprihatin_',
       'https://www.linkedin.com/company/aa-alive',
       'https://my.linkedin.com/in/evin-lim-362a84258',
     ],
@@ -70,6 +65,7 @@ export default function StructuredData() {
     },
     sameAs: [
       'https://my.linkedin.com/in/evin-lim-362a84258',
+      'https://www.linkedin.com/company/aa-alive',
     ],
   }
 
@@ -117,6 +113,26 @@ export default function StructuredData() {
       '@type': 'Country',
       name: 'Malaysia',
     },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '247',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    review: testimonials.map((testimonial) => ({
+      '@type': 'Review',
+      author: {
+        '@type': 'Person',
+        name: testimonial.name,
+      },
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: testimonial.rating,
+        bestRating: 5,
+      },
+      reviewBody: testimonial.content,
+    })),
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'ISO 14001 & ESG Certification Services',
@@ -196,7 +212,6 @@ export default function StructuredData() {
       availability: 'https://schema.org/InStock',
       description: 'Complete ISO 14001 certification package starting from RM 13,000',
     },
-    termsOfService: 'https://esgiso.com/terms',
     providerMobility: 'dynamic',
   }
 

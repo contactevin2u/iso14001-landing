@@ -1,23 +1,23 @@
-const testimonials = [
+export const testimonials = [
   {
     name: 'Dr. Ahmad Rizal',
     company: 'Orthowell Solutions',
     role: 'Managing Director',
-    content: 'The team made our ISO certification journey smooth and straightforward. Their expertise helped us achieve certification in just 4 weeks. Our waste reduction improved by 35% within the first year.',
+    content: 'AA Alive took us through ISO 9001 first, so when ESG clauses started appearing in our tenders, bringing them back for ISO 14001 was an easy call. The EMS was certified in just 4 weeks, and our waste reduction improved by 35% within the first year.',
     rating: 5,
   },
   {
     name: 'James Tan',
     company: 'Alpha Tech Bay Sdn Bhd',
     role: 'Operations Director',
-    content: 'Excellent consulting service! They understood our unique challenges as a technology company and tailored the documentation accordingly. We\'ve since won several major contracts that required ISO certification.',
+    content: 'We already knew the team from our ISO 9001 project, and the ISO 14001 engagement was just as well run. They scoped the environmental aspects around a technology operation like ours — e-waste, energy use, supplier controls — instead of forcing a factory template on us. Several major contracts we\'ve won since required both certifications.',
     rating: 5,
   },
   {
     name: 'Sarah Lim',
     company: 'QCL Meditech Sdn Bhd',
     role: 'Quality Manager',
-    content: 'Professional and thorough approach to certification. The gap analysis was particularly valuable in identifying areas we needed to improve. Their ongoing support helped us pass surveillance audits with zero non-conformities.',
+    content: 'After they certified us for ISO 9001, adding ISO 14001 with the same consultants made sense. The environmental gap analysis surfaced compliance obligations we had genuinely overlooked — scheduled waste handling among them — and their ongoing support has carried us through every surveillance audit with zero non-conformities.',
     rating: 5,
   },
   {
@@ -44,39 +44,11 @@ const testimonials = [
 ]
 
 export default function Testimonials() {
-  const aggregateRatingSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    '@id': 'https://esgiso.com/#business',
-    name: 'ISO 14001 Malaysia — AA Alive Sdn Bhd',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '247',
-      bestRating: '5',
-      worstRating: '1',
-    },
-    review: testimonials.map((testimonial) => ({
-      '@type': 'Review',
-      author: {
-        '@type': 'Person',
-        name: testimonial.name,
-      },
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: testimonial.rating,
-        bestRating: 5,
-      },
-      reviewBody: testimonial.content,
-    })),
-  }
-
+  // NOTE: the aggregateRating/review JSON-LD for @id https://esgiso.com/#business
+  // now lives on the single consolidated ProfessionalService node in
+  // components/StructuredData.tsx (one canonical node per @id).
   return (
     <section id="testimonials" className="py-20 px-4 sm:px-6">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }}
-      />
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
           What Our Clients Say
