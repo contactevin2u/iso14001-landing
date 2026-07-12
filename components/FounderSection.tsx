@@ -44,8 +44,10 @@ export default function FounderSection() {
                 </p>
                 <p>
                   Over the past 8+ years, we&apos;ve helped 500+ companies across manufacturing, oil & gas, construction,
-                  F&B, healthcare, and more achieve ISO 14001 certification. Our 98% first-time pass rate isn&apos;t
-                  marketing — it&apos;s the result of hands-on preparation and zero shortcuts.
+                  F&B, healthcare, and more achieve ISO 14001 certification. With the rise of ESG requirements,
+                  I&apos;ve expanded our expertise to include <strong className="text-gray-900">ESG reporting frameworks,
+                  carbon baseline measurement, and MGTC/GTFS green financing guidance</strong>. Our 98% first-time
+                  pass rate isn&apos;t marketing — it&apos;s the result of hands-on preparation and zero shortcuts.
                 </p>
                 <p className="font-medium text-gray-900">
                   If you&apos;re serious about getting certified, I&apos;m happy to have a no-obligation chat about

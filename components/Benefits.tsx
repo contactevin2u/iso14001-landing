@@ -1,33 +1,33 @@
 const benefits = [
   {
-    title: 'Reduce Environmental Impact',
-    description: 'Systematically identify and control your environmental footprint across all operations.',
-    details: 'Organizations implementing ISO 14001 typically achieve 20-40% reduction in waste generation and 10-20% improvement in energy efficiency within the first two years. The standard requires you to identify significant environmental aspects and implement controls to minimize negative impacts.',
+    title: 'Win ESG-Mandated Contracts',
+    description: 'Qualify for Petronas vendor panels, government green procurement, and Bursa-listed supply chains.',
+    details: 'Major corporations and government agencies increasingly require ISO 14001 and ESG credentials from suppliers. Without certification, you\'re automatically disqualified from RM billions in annual contracts across manufacturing, oil & gas, construction, and services sectors.',
   },
   {
-    title: 'Meet Legal Requirements',
-    description: 'Stay compliant with environmental regulations and avoid costly fines or penalties.',
-    details: 'In Malaysia, compliance with DOE (Department of Environment) regulations is mandatory. ISO 14001 provides a framework for tracking and meeting requirements under the Environmental Quality Act 1974, including scheduled waste management, air emissions, and effluent discharge standards.',
+    title: 'Unlock Green Financing & Tax Incentives',
+    description: 'Access MGTC GTFS at 2% interest subsidy, GITA 100% tax allowance, and GITE 70% tax exemption.',
+    details: 'The Malaysian government offers substantial financial incentives for environmentally certified companies. ISO 14001 is your gateway to the Green Technology Financing Scheme, Green Investment Tax Allowance, and Green Income Tax Exemption — saving hundreds of thousands in financing costs and taxes.',
   },
   {
-    title: 'Cut Operational Costs',
+    title: 'Build Your ESG Reporting Framework',
+    description: 'Generate the environmental data investors, stakeholders, and regulators now demand.',
+    details: 'Bursa Malaysia mandates sustainability reporting. ISO 14001 gives you the systematic framework to track carbon emissions, waste metrics, energy consumption, and environmental KPIs — exactly what ESG auditors, institutional investors, and FTSE4Good assessments require.',
+  },
+  {
+    title: 'Cut Operational Costs 10–20%',
     description: 'Reduce waste, lower energy consumption, and optimize resource usage to save money.',
-    details: 'Studies show ISO 14001 certified organizations save an average of 10-15% on operational costs through improved resource efficiency. This includes reduced raw material consumption, lower utility bills, and decreased waste disposal costs.',
+    details: 'Studies show ISO 14001 certified organizations save an average of 10-15% on operational costs through improved resource efficiency. This includes reduced raw material consumption, lower utility bills, and decreased waste disposal costs — real savings that show up in your bottom line within the first year.',
   },
   {
-    title: 'Win Green Contracts',
-    description: 'Many organizations require ISO 14001 from suppliers. Access new business opportunities.',
-    details: 'Major corporations like Petronas, Tenaga Nasional, and multinational companies increasingly require ISO 14001 certification from their supply chain partners. Government green procurement policies also favor certified organizations.',
+    title: 'Full DOE & Environmental Compliance',
+    description: 'Stay compliant with environmental regulations and avoid fines up to RM 500,000.',
+    details: 'In Malaysia, compliance with DOE regulations is mandatory. ISO 14001 provides a framework for tracking and meeting requirements under the Environmental Quality Act 1974, including scheduled waste management, air emissions, and effluent discharge standards — protecting you from enforcement action.',
   },
   {
-    title: 'Enhance Brand Reputation',
-    description: 'Show customers and stakeholders your genuine commitment to environmental responsibility.',
-    details: 'Research indicates 73% of consumers prefer to buy from environmentally responsible companies. ISO 14001 certification provides third-party verification of your environmental commitment, enhancing credibility with customers, investors, and the community.',
-  },
-  {
-    title: 'Drive Continuous Improvement',
-    description: 'Build a culture of ongoing environmental performance improvement across your organization.',
-    details: 'The PDCA cycle embedded in ISO 14001 ensures your environmental management system continuously evolves. Regular internal audits and management reviews identify opportunities for improvement, keeping your organization ahead of regulatory changes and industry best practices.',
+    title: 'Sustainability Credentials for Stakeholders',
+    description: 'Show customers, investors, and partners your verified commitment to environmental responsibility.',
+    details: '73% of institutional investors now screen for ESG performance. ISO 14001 certification provides third-party verification of your environmental commitment, enhancing credibility with ESG-focused investors, MNC procurement teams, and environmentally-conscious consumers.',
   },
 ]
 
@@ -36,11 +36,11 @@ export default function Benefits() {
     <section id="benefits" className="py-20 px-4 sm:px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          Benefits of ISO 14001 Certification for Malaysian Businesses
+          Why Malaysian Businesses Are Rushing to Get ISO 14001 & ESG Certified
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          Certification delivers real, measurable ROI — from cost savings to winning green contracts.
-          Discover why 500+ Malaysian companies trust us for ISO 14001.
+          It&apos;s not just about the environment anymore — ISO 14001 is now a business growth strategy.
+          Here&apos;s the real ROI.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

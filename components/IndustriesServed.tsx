@@ -2,6 +2,7 @@ const industries = [
   {
     name: 'Manufacturing',
     description: 'Automotive parts, electronics, plastics, metal fabrication — we\'ve certified factories across all manufacturing sub-sectors in Malaysia.',
+    esg: 'MNC ESG supplier audits now mandatory for tier-1 suppliers',
     clients: '200+ certified',
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -12,6 +13,7 @@ const industries = [
   {
     name: 'Oil & Gas',
     description: 'Upstream, downstream, and services — Petronas, Shell, Murphy Oil vendor requirements. We understand PETRONAS HSE standards.',
+    esg: 'Petronas requires ESG-aligned EMS for all vendor panel members',
     clients: '50+ certified',
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -22,6 +24,7 @@ const industries = [
   {
     name: 'Construction',
     description: 'Main contractors, sub-contractors, and building material suppliers. Essential for CIDB green building and GBI projects.',
+    esg: 'GBI and CIDB Green now require environmental certification',
     clients: '80+ certified',
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -32,6 +35,7 @@ const industries = [
   {
     name: 'Food & Beverage',
     description: 'Food processing, packaging, and distribution. Meets HACCP integration requirements and export market environmental standards.',
+    esg: 'EU and Singapore export markets mandating ESG from suppliers',
     clients: '40+ certified',
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -42,6 +46,7 @@ const industries = [
   {
     name: 'Healthcare & Medical',
     description: 'Hospitals, clinics, pharmaceutical companies, and medical device distributors. Integrates with MDA and KKM compliance.',
+    esg: 'Healthcare ESG reporting increasingly required by investors',
     clients: '35+ certified',
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -52,6 +57,7 @@ const industries = [
   {
     name: 'Logistics & Transport',
     description: 'Freight forwarders, warehousing, cold chain logistics. Fleet emission management and green logistics compliance.',
+    esg: 'Carbon tracking now required for green supply chain certification',
     clients: '30+ certified',
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -62,6 +68,7 @@ const industries = [
   {
     name: 'Technology & IT',
     description: 'Data centers, software companies, and tech manufacturers. E-waste management and energy-efficient operations.',
+    esg: 'Global tech firms require ESG compliance from APAC vendors',
     clients: '25+ certified',
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -72,6 +79,7 @@ const industries = [
   {
     name: 'Property & Facilities',
     description: 'Property developers, facility management, and building maintenance companies. Green building certifications and township sustainability.',
+    esg: 'MGTC green financing requires ISO 14001 for property projects',
     clients: '40+ certified',
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -90,7 +98,7 @@ export default function IndustriesServed() {
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-14">
           From heavy manufacturing to tech startups — our consultants have deep expertise in
-          industry-specific environmental requirements, regulations, and audit expectations.
+          industry-specific environmental and ESG requirements.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -104,6 +112,9 @@ export default function IndustriesServed() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">{industry.name}</h3>
               <p className="text-sm text-gray-600 mb-3">{industry.description}</p>
+              <p className="text-xs text-amber-700 bg-amber-50 px-2 py-1 rounded mb-3 font-medium">
+                {industry.esg}
+              </p>
               <span className="text-xs font-medium text-primary-600">{industry.clients}</span>
             </div>
           ))}

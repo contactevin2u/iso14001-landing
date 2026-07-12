@@ -88,6 +88,12 @@ export default function CaseStudy() {
             </div>
           </div>
 
+          <div className="bg-primary-50 rounded-lg p-4 mb-6 border border-primary-100">
+            <p className="text-sm font-medium text-primary-800">
+              ESG Outcome: Now generates quarterly ESG data for their Japanese MNC client&apos;s sustainability report. Qualified for Bursa-listed supply chain panel.
+            </p>
+          </div>
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
               <div className="text-2xl font-bold text-primary-600">28 days</div>
@@ -179,6 +185,12 @@ export default function CaseStudy() {
             </div>
           </div>
 
+          <div className="bg-primary-50 rounded-lg p-4 mb-6 border border-primary-100">
+            <p className="text-sm font-medium text-primary-800">
+              ESG Outcome: Carbon emissions tracking now integrated into operations. Passed Shell&apos;s ESG supplier audit on first attempt.
+            </p>
+          </div>
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
               <div className="text-2xl font-bold text-primary-600">25 days</div>
@@ -199,8 +211,8 @@ export default function CaseStudy() {
           </div>
         </div>
 
-        {/* Case Study 3 - shorter */}
-        <div className="bg-gray-50 rounded-2xl p-8 md:p-10 border border-gray-200">
+        {/* Case Study 3 */}
+        <div className="bg-gray-50 rounded-2xl p-8 md:p-10 border border-gray-200 mb-8">
           <div className="flex flex-wrap items-center gap-3 mb-2">
             <span className="text-xs font-medium text-primary-600 bg-primary-50 px-3 py-1 rounded-full uppercase tracking-wider">
               Case Study — Food & Beverage
@@ -214,6 +226,12 @@ export default function CaseStudy() {
             that ISO 14001 would be mandatory for 2025 contracts. With our help, they achieved certification
             in 30 days and saw immediate operational improvements.
           </p>
+
+          <div className="bg-primary-50 rounded-lg p-4 mb-6 border border-primary-100">
+            <p className="text-sm font-medium text-primary-800">
+              ESG Outcome: Environmental data now included in export compliance packages. Qualified for Singapore Green Plan 2030 supplier requirements.
+            </p>
+          </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
@@ -231,6 +249,48 @@ export default function CaseStudy() {
             <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
               <div className="text-2xl font-bold text-primary-600">2</div>
               <div className="text-xs text-gray-500 mt-1">New export markets</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Case Study 4 - NEW */}
+        <div className="bg-gray-50 rounded-2xl p-8 md:p-10 border border-gray-200">
+          <div className="flex flex-wrap items-center gap-3 mb-2">
+            <span className="text-xs font-medium text-primary-600 bg-primary-50 px-3 py-1 rounded-full uppercase tracking-wider">
+              Case Study — Property Development
+            </span>
+          </div>
+          <h3 className="text-2xl font-bold text-gray-900 mb-3">
+            Property Developer Secures RM 15M Green Financing After ISO 14001 Certification
+          </h3>
+          <p className="text-gray-600 mb-6 max-w-3xl">
+            A Kuala Lumpur property developer building a mixed-use township needed ISO 14001 to qualify for
+            MGTC Green Technology Financing Scheme (GTFS) and meet GBI green building requirements. Their bank
+            required environmental certification before releasing the green loan facility.
+          </p>
+
+          <div className="bg-primary-50 rounded-lg p-4 mb-6 border border-primary-100">
+            <p className="text-sm font-medium text-primary-800">
+              ESG Outcome: Full ESG reporting framework implemented. Board-level sustainability briefing delivered. Now pursuing FTSE4Good eligibility for parent company.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
+              <div className="text-2xl font-bold text-primary-600">35 days</div>
+              <div className="text-xs text-gray-500 mt-1">Time to certification</div>
+            </div>
+            <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
+              <div className="text-2xl font-bold text-primary-600">RM 15M</div>
+              <div className="text-xs text-gray-500 mt-1">Green financing secured</div>
+            </div>
+            <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
+              <div className="text-2xl font-bold text-primary-600">2%</div>
+              <div className="text-xs text-gray-500 mt-1">Interest subsidy saved</div>
+            </div>
+            <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
+              <div className="text-2xl font-bold text-primary-600">GBI</div>
+              <div className="text-xs text-gray-500 mt-1">Green Building certified</div>
             </div>
           </div>
         </div>

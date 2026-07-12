@@ -13,15 +13,15 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link href="/" className="flex flex-col min-h-0">
             <span className="text-xl sm:text-2xl font-bold text-primary-700 leading-tight">ISO 14001</span>
-            <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-gray-500 hidden xs:block">Environmental Management Begins Here</span>
+            <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-gray-500 hidden xs:block">ESG & Environmental Compliance</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">
-            <a href="/#what-is-iso" className="text-gray-600 hover:text-primary-600 transition-colors text-sm">
-              What is ISO 14001
-            </a>
             <a href="/#benefits" className="text-gray-600 hover:text-primary-600 transition-colors text-sm">
               Benefits
+            </a>
+            <a href="/#pricing" className="text-gray-600 hover:text-primary-600 transition-colors text-sm">
+              ESG & Incentives
             </a>
             <a href="/#process" className="text-gray-600 hover:text-primary-600 transition-colors text-sm">
               Process
@@ -101,8 +101,8 @@ export default function Header() {
         {isOpen && (
           <div className="md:hidden py-4 border-t border-gray-100">
             <nav className="flex flex-col gap-4">
-              <a href="/#what-is-iso" onClick={() => setIsOpen(false)} className="text-gray-600">What is ISO 14001</a>
               <a href="/#benefits" onClick={() => setIsOpen(false)} className="text-gray-600">Benefits</a>
+              <a href="/#pricing" onClick={() => setIsOpen(false)} className="text-gray-600">ESG & Incentives</a>
               <a href="/#process" onClick={() => setIsOpen(false)} className="text-gray-600">Process</a>
               <a href="/#pricing" onClick={() => setIsOpen(false)} className="text-gray-600">Pricing</a>
 

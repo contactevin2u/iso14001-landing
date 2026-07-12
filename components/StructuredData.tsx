@@ -110,20 +110,27 @@ export default function StructuredData() {
         closes: '13:00',
       },
     ],
-    priceRange: 'RM13,000 - RM50,000',
+    priceRange: 'RM13,000 - RM50,000+',
     areaServed: {
       '@type': 'Country',
       name: 'Malaysia',
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'ISO 14001 Certification Services',
+      name: 'ISO 14001 & ESG Certification Services',
       itemListElement: [
         {
           '@type': 'Offer',
           itemOffered: {
             '@type': 'Service',
             name: 'ISO 14001 Certification Consulting',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'ESG Compliance & Reporting Framework',
           },
         },
         {
@@ -145,6 +152,20 @@ export default function StructuredData() {
           itemOffered: {
             '@type': 'Service',
             name: 'Internal Audit Training',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'MGTC Green Financing Guidance',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Carbon Baseline Measurement',
           },
         },
       ],

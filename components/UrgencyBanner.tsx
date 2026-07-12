@@ -1,0 +1,69 @@
+'use client'
+
+import { useState, useEffect } from 'react'
+
+declare global {
+  interface Window {
+    gtag_report_conversion: (url?: string) => boolean
+  }
+}
+
+export default function UrgencyBanner() {
+  const [dismissed, setDismissed] = useState(true)
+
+  useEffect(() => {
+    const wasDismissed = sessionStorage.getItem('urgency-banner-dismissed')
+    if (!wasDismissed) {
+      setDismissed(false)
+    }
+  }, [])
+
+  const handleDismiss = () => {
+    setDismissed(true)
+    sessionStorage.setItem('urgency-banner-dismissed', 'true')
+  }
+
+  const waUrl = 'https://wa.me/601124102070?text=Hi%2C%20I%20want%20to%20secure%20one%20of%20the%20remaining%20ISO%2014001%20%26%20ESG%20certification%20slots%20this%20month.'
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    if (typeof window.gtag_report_conversion === 'function') {
+      window.gtag_report_conversion(waUrl)
+    } else {
+      window.open(waUrl, '_blank')
+    }
+  }
+
+  if (dismissed) return null
+
+  return (
+    <div className="bg-amber-600 text-white py-2.5 px-4 text-center text-sm relative">
+      <div className="max-w-4xl mx-auto flex items-center justify-center gap-2 flex-wrap">
+        <span className="font-medium">
+          MNCs Are Dropping Non-ESG Suppliers. Only 5 Slots Left This Month.
+        </span>
+        <a
+          href={waUrl}
+          onClick={handleClick}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 bg-white text-amber-700 font-semibold px-3 py-1 rounded text-xs hover:bg-amber-50 transition-colors"
+        >
+          Secure Your Slot
+          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+      <button
+        onClick={handleDismiss}
+        className="absolute right-3 top-1/2 -translate-y-1/2 text-amber-200 hover:text-white transition-colors"
+        aria-label="Dismiss banner"
+      >
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+  )
+}

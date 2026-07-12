@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: 'What is the cost of ISO 14001 certification in Malaysia?',
-    answer: 'Our ISO 14001 certification consulting packages start from RM 13,000 for small to medium enterprises. This includes gap analysis, documentation development, implementation support, internal audit training, and audit preparation. The final cost depends on your organization\'s size, number of sites, and complexity of operations. Certification body audit fees are separate.',
+    answer: 'Our ISO 14001 certification consulting packages start from RM 13,000 for SMEs (under 50 employees, single site). Our Professional package for mid-sized businesses (50-200 employees, up to 3 sites) is RM 22,000 and includes ESG reporting framework, carbon baseline, and MGTC/GTFS guidance. Enterprise packages for larger organizations are custom-quoted. Certification body audit fees are separate.',
   },
   {
     question: 'What are the key requirements of ISO 14001:2015?',
@@ -55,6 +55,22 @@ const faqs = [
     question: 'What documents are required for ISO 14001 certification?',
     answer: 'The key mandatory documents include: Environmental Policy, Environmental Aspects & Impacts Register, Legal Requirements Register, Environmental Objectives and Targets, Operational Control Procedures, Emergency Preparedness and Response Plan, Monitoring and Measurement Records, Internal Audit Procedures and Reports, Management Review Minutes, and Corrective Action Records. Our consultants develop all these documents customized to your specific operations — you don\'t need to create anything from scratch.',
   },
+  {
+    question: 'How does ISO 14001 help with ESG compliance?',
+    answer: 'ISO 14001 directly addresses the "E" (Environmental) pillar of ESG. It provides the systematic framework for tracking carbon emissions, waste metrics, energy consumption, and environmental KPIs — exactly the data required for Bursa Malaysia sustainability reporting, FTSE4Good assessments, and MNC ESG supplier audits. Our Professional and Enterprise packages include ESG reporting framework setup and carbon baseline measurement to maximize your ESG readiness.',
+  },
+  {
+    question: 'How do I qualify for MGTC green financing with ISO 14001?',
+    answer: 'The MGTC Green Technology Financing Scheme (GTFS 3.0) offers a 2% interest subsidy on green technology loans up to RM 100M. ISO 14001 certification is one of the qualifying requirements, demonstrating your organization\'s commitment to environmental management. Our Professional and Enterprise packages include MGTC/GTFS application guidance to help you navigate the process and maximize your chances of approval.',
+  },
+  {
+    question: 'Does ISO 14001 help with carbon neutrality goals?',
+    answer: 'ISO 14001 is the foundation for any carbon neutrality journey. It requires you to identify and measure significant environmental aspects — including carbon emissions sources. While ISO 14001 itself doesn\'t mandate carbon neutrality, the management system it creates enables you to set carbon reduction targets, track progress, and demonstrate measurable improvements. Our Enterprise package includes a carbon neutrality roadmap to guide your long-term decarbonization strategy.',
+  },
+  {
+    question: 'What are the requirements for becoming a Bursa-listed supply chain supplier?',
+    answer: 'Bursa Malaysia now mandates sustainability reporting for listed companies, and this requirement cascades to their supply chains. Suppliers are increasingly expected to demonstrate environmental credentials, provide ESG data, and show documented environmental management systems. ISO 14001 certification gives you the verified environmental management system, tracking capabilities, and third-party credibility that Bursa-listed companies require from their suppliers.',
+  },
 ]
 
 export default function FAQ() {
@@ -81,10 +97,10 @@ export default function FAQ() {
       />
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-4">
-          ISO 14001 Malaysia — Frequently Asked Questions
+          ISO 14001 & ESG Malaysia — Frequently Asked Questions
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          Everything you need to know about ISO 14001 certification cost, process, and requirements in Malaysia
+          Everything you need to know about ISO 14001 certification, ESG compliance, and green financing in Malaysia
         </p>
 
         <div className="space-y-4">

@@ -10,19 +10,42 @@ declare global {
 
 const WHATSAPP_NUMBER = '+601124102070'
 
+const goals = [
+  'Win ESG-mandated tenders',
+  'Green financing (MGTC/GTFS)',
+  'MNC supply chain qualification',
+  'DOE compliance',
+  'ESG reporting framework',
+  'General enquiry',
+]
+
+const industryOptions = [
+  'Manufacturing',
+  'Oil & Gas',
+  'Construction',
+  'Food & Beverage',
+  'Healthcare & Medical',
+  'Logistics & Transport',
+  'Technology & IT',
+  'Property & Facilities',
+  'Other',
+]
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     company: '',
     email: '',
     phone: '',
+    goal: '',
+    industry: '',
     message: '',
   })
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
 
-    const text = `New Enquiry ISO 14001\nName: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage:\n${formData.message}`
+    const text = `New ESG/ISO 14001 Enquiry\nName: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nPrimary Goal: ${formData.goal}\nIndustry: ${formData.industry}\nMessage:\n${formData.message}`
 
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`
 
@@ -43,7 +66,7 @@ export default function Contact() {
     }
   }
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
@@ -53,10 +76,10 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="text-white">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Book Your Free ISO 14001 Consultation Today
+              Book Your Free ESG Readiness Assessment
             </h2>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Share your details and our ISO 14001 consultant will get back to you
+              Share your details and our ISO 14001 & ESG consultant will get back to you
               within 24 hours. Free gap analysis discussion included.
             </p>
 
@@ -177,6 +200,43 @@ export default function Contact() {
                 </div>
               </div>
 
+              <div className="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label htmlFor="goal" className="block text-sm font-medium text-gray-700 mb-1">
+                    Primary Goal
+                  </label>
+                  <select
+                    id="goal"
+                    name="goal"
+                    value={formData.goal}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors bg-white"
+                  >
+                    <option value="">Select your goal</option>
+                    {goals.map((goal) => (
+                      <option key={goal} value={goal}>{goal}</option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label htmlFor="industry" className="block text-sm font-medium text-gray-700 mb-1">
+                    Industry
+                  </label>
+                  <select
+                    id="industry"
+                    name="industry"
+                    value={formData.industry}
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors bg-white"
+                  >
+                    <option value="">Select your industry</option>
+                    {industryOptions.map((ind) => (
+                      <option key={ind} value={ind}>{ind}</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
                   Message
@@ -188,7 +248,7 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-colors resize-none"
-                  placeholder="Tell us about your certification needs..."
+                  placeholder="Tell us about your certification and ESG needs..."
                 />
               </div>
 
@@ -196,7 +256,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
               >
-                Send Enquiry
+                Get Free ESG Assessment
               </button>
             </form>
           </div>
