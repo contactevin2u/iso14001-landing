@@ -18,6 +18,7 @@ import GreenIncentives from '@/components/GreenIncentives'
 import Testimonials from '@/components/Testimonials'
 import IndustriesServed from '@/components/IndustriesServed'
 import FAQ from '@/components/FAQ'
+import AnswerBlock from '@/components/AnswerBlock'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
@@ -46,6 +47,7 @@ export default function Home() {
         <Testimonials />
         <IndustriesServed />
         <FAQ />
+        <AnswerBlock />
         <Contact />
       </main>
       <Footer />

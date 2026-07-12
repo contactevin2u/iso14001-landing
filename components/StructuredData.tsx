@@ -11,10 +11,12 @@ export default function StructuredData() {
     foundingDate: '2016-10-06',
     founder: {
       '@type': 'Person',
+      '@id': 'https://esgiso.com/#founder',
       name: 'Evin Lim',
       jobTitle: 'Managing Director & Founder',
       url: 'https://my.linkedin.com/in/evin-lim-362a84258',
     },
+    award: 'Superbrands Malaysia (2025)',
     contactPoint: [
       {
         '@type': 'ContactPoint',
