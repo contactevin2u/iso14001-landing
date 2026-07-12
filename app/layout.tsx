@@ -110,6 +110,7 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-795120559');
+            gtag('config', 'G-Z4VTPVZ06V'); // GA4 (provisioned 2026-07-12)
           `}
         </Script>
         <Script id="google-ads-conversion" strategy="afterInteractive">
