@@ -34,7 +34,7 @@ const costs = [
 ]
 
 export default function CostOfInaction() {
-  const waUrl = 'https://wa.me/601124102070?text=Hi%2C%20I%20want%20to%20stop%20losing%20money%20and%20get%20ISO%2014001%20certified.'
+  const waUrl = 'https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20stop%20losing%20money%20and%20get%20ISO%2014001%20certified.'
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()

@@ -30,7 +30,7 @@ const answersBm: { question: string; answer: string }[] = [
   {
     question: 'Berapa lama tempoh untuk mendapatkan sijil ISO 14001?',
     answer:
-      'Melalui proses kami yang diperkemas, kebanyakan organisasi di Malaysia boleh disahkan dalam tempoh 30 hari. Konsultasi pertama adalah percuma: hubungi kami melalui WhatsApp di +60 11-2410 2070.',
+      'Melalui proses kami yang diperkemas, kebanyakan organisasi di Malaysia boleh disahkan dalam tempoh 30 hari. Konsultasi pertama adalah percuma: hubungi kami melalui WhatsApp di +60 10-206 2070.',
   },
 ]
 

@@ -8,7 +8,7 @@ declare global {
   }
 }
 
-const WHATSAPP_NUMBER = '+601124102070'
+const WHATSAPP_NUMBER = '+60102062070'
 
 const goals = [
   'Win ESG-mandated tenders',
@@ -106,8 +106,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-medium text-gray-200">Phone</div>
-                  <a href="tel:+601124102070" className="text-gray-400 hover:text-white transition-colors">
-                    +601124102070
+                  <a href="tel:+60102062070" className="text-gray-400 hover:text-white transition-colors">
+                    +60102062070
                   </a>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export default function Contact() {
                 <div>
                   <div className="font-medium text-gray-200">WhatsApp</div>
                   <a
-                    href="https://wa.me/601124102070"
+                    href="https://wa.me/60102062070"
                     onClick={handleWhatsAppClick}
                     target="_blank"
                     rel="noopener noreferrer"

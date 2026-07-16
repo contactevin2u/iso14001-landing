@@ -18,14 +18,14 @@ export default function StructuredData() {
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        telephone: '+601124102070',
+        telephone: '+60102062070',
         contactType: 'customer service',
         availableLanguage: ['English', 'Malay', 'Chinese'],
         areaServed: 'MY',
       },
       {
         '@type': 'ContactPoint',
-        telephone: '+601124102070',
+        telephone: '+60102062070',
         contactType: 'sales',
         availableLanguage: ['English', 'Malay', 'Chinese'],
         areaServed: 'MY',
@@ -76,7 +76,7 @@ export default function StructuredData() {
     name: 'ISO 14001 Malaysia — AA Alive Sdn Bhd',
     image: 'https://esgiso.com/logo.png',
     url: 'https://esgiso.com',
-    telephone: '+601124102070',
+    telephone: '+60102062070',
     email: 'contact@evin2u.com',
     founder: {
       '@id': 'https://esgiso.com/#founder',

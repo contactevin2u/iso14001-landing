@@ -9,7 +9,7 @@ declare global {
 }
 
 export default function FloatingWhatsApp() {
-  const phoneNumber = '601124102070'
+  const phoneNumber = '60102062070'
   const message = encodeURIComponent('Hi, I would like to enquire about ISO 14001 certification.')
   const waUrl = `https://wa.me/${phoneNumber}?text=${message}`
   const [showLabel, setShowLabel] = useState(false)

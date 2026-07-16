@@ -128,13 +128,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+601124102070" className="hover:text-white transition-colors">
-                  +6011-2410 2070
+                <a href="tel:+60102062070" className="hover:text-white transition-colors">
+                  +6010-206 2070
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/601124102070"
+                  href="https://wa.me/60102062070"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

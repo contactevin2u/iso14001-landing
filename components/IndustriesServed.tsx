@@ -123,7 +123,7 @@ export default function IndustriesServed() {
         <div className="mt-12 p-6 bg-primary-50 rounded-xl border border-primary-100 text-center">
           <p className="text-primary-800 font-medium">
             Don&apos;t see your industry? We&apos;ve certified companies in 50+ sectors.
-            <a href="https://wa.me/601124102070?text=Hi%2C%20I%20want%20to%20know%20if%20ISO%2014001%20applies%20to%20my%20industry."
+            <a href="https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20know%20if%20ISO%2014001%20applies%20to%20my%20industry."
                target="_blank"
                rel="noopener noreferrer"
                className="underline hover:no-underline ml-1"

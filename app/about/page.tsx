@@ -186,8 +186,8 @@ export default function AboutPage() {
               Selangor, Malaysia
               <br />
               Phone:{' '}
-              <a href="tel:+601124102070" className="text-primary-600 hover:text-primary-700 underline">
-                +60 11-2410 2070
+              <a href="tel:+60102062070" className="text-primary-600 hover:text-primary-700 underline">
+                +60 10-206 2070
               </a>{' '}
               · Email:{' '}
               <a href="mailto:contact@evin2u.com" className="text-primary-600 hover:text-primary-700 underline">
@@ -196,7 +196,7 @@ export default function AboutPage() {
             </p>
 
             <a
-              href="https://wa.me/601124102070?text=Hi%2C%20I%20want%20to%20discuss%20ISO%2014001%20certification%20for%20my%20business."
+              href="https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20discuss%20ISO%2014001%20certification%20for%20my%20business."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors"

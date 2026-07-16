@@ -27,7 +27,7 @@ export default function UrgencyBanner() {
     sessionStorage.setItem('urgency-banner-dismissed', 'true')
   }
 
-  const waUrl = 'https://wa.me/601124102070?text=Hi%2C%20I%20want%20to%20secure%20one%20of%20the%20remaining%20ISO%2014001%20%26%20ESG%20certification%20slots%20this%20month.'
+  const waUrl = 'https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20secure%20one%20of%20the%20remaining%20ISO%2014001%20%26%20ESG%20certification%20slots%20this%20month.'
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
