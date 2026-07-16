@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import './globals.css'
 import StructuredData from '@/components/StructuredData'
+import GclidTracker from '@/components/GclidTracker'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://esgiso.com'),
@@ -134,6 +135,7 @@ export default function RootLayout({
       </head>
       <body className="bg-white text-gray-900">
         <StructuredData />
+        <GclidTracker />
         {children}
       </body>
     </html>

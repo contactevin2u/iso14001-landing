@@ -1,5 +1,7 @@
 'use client'
 
+import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
+
 import { useState } from 'react'
 
 declare global {
@@ -47,7 +49,9 @@ export default function Contact() {
 
     const text = `New ESG/ISO 14001 Enquiry\nName: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nPrimary Goal: ${formData.goal}\nIndustry: ${formData.industry}\nMessage:\n${formData.message}`
 
-    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`
+    const url = getWhatsAppUrlWithBeacon(
+      `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`
+    )
 
     if (typeof window.gtag_report_conversion === 'function') {
       window.gtag_report_conversion(url)
@@ -58,7 +62,7 @@ export default function Contact() {
 
   const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
-    const url = `https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}`
+    const url = getWhatsAppUrlWithBeacon(`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}`)
     if (typeof window.gtag_report_conversion === 'function') {
       window.gtag_report_conversion(url)
     } else {
