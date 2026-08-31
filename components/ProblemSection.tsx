@@ -69,7 +69,7 @@ export default function ProblemSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-green-700">After 30 Days With Us</h3>
+              <h3 className="text-xl font-bold text-green-700">After Working With Us</h3>
             </div>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">

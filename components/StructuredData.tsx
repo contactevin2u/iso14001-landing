@@ -1,5 +1,3 @@
-import { testimonials } from '@/components/Testimonials'
-
 export default function StructuredData() {
   const organizationSchema = {
     '@context': 'https://schema.org',
@@ -9,7 +7,7 @@ export default function StructuredData() {
     legalName: 'AA Alive Sdn. Bhd.',
     url: 'https://esgiso.com',
     logo: 'https://esgiso.com/logo.png',
-    description: 'Malaysia\'s trusted ISO 14001 environmental management system certification consultants. 500+ companies certified with 98% success rate since 2016.',
+    description: 'Malaysia\'s ISO 14001 environmental management system certification consultants, serving Malaysian businesses since 2016.',
     foundingDate: '2016-10-06',
     founder: {
       '@id': 'https://esgiso.com/#founder',
@@ -113,26 +111,6 @@ export default function StructuredData() {
       '@type': 'Country',
       name: 'Malaysia',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '247',
-      bestRating: '5',
-      worstRating: '1',
-    },
-    review: testimonials.map((testimonial) => ({
-      '@type': 'Review',
-      author: {
-        '@type': 'Person',
-        name: testimonial.name,
-      },
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: testimonial.rating,
-        bestRating: 5,
-      },
-      reviewBody: testimonial.content,
-    })),
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'ISO 14001 & ESG Certification Services',
@@ -199,7 +177,7 @@ export default function StructuredData() {
       '@id': 'https://esgiso.com/#organization',
     },
     serviceType: 'ISO Certification Consulting',
-    description: 'Complete ISO 14001:2015 environmental management system certification consulting — gap analysis, EMS documentation, staff training, internal audit, and certification audit preparation. Get certified in 30 days.',
+    description: 'Complete ISO 14001:2015 environmental management system certification consulting — gap analysis, EMS documentation, staff training, internal audit, and certification audit preparation.',
     areaServed: {
       '@type': 'Country',
       name: 'Malaysia',

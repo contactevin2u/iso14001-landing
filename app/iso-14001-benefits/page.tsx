@@ -6,7 +6,7 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Benefits | Why Your Business Needs It',
-  description: 'ISO 14001 benefits: cut costs 10-15%, win green contracts, meet DOE compliance. See why 500+ Malaysian businesses got certified.',
+  description: 'ISO 14001 benefits: reduce waste and operating costs, win green contracts, meet DOE compliance. See why Malaysian businesses get certified.',
   keywords: ['ISO 14001 benefits', 'advantages of ISO 14001', 'environmental certification benefits', 'EMS benefits'],
   openGraph: {
     title: 'ISO 14001 Benefits | Why Your Business Needs It',

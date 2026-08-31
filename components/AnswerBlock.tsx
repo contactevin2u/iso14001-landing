@@ -7,7 +7,7 @@ const answers: { question: string; answer: string }[] = [
   {
     question: 'How long does ISO 14001 certification take in Malaysia?',
     answer:
-      'Most Malaysian organizations achieve ISO 14001 certification within 30 days using our streamlined process. The exact timeline depends on your organization’s size, complexity and current environmental practices — consultants handle the documentation, process setup and audit preparation so your team is not pulled away from operations.',
+      'ISO 14001 certification timelines in Malaysia depend on your organization’s size, complexity and current environmental practices, plus the certification body’s audit availability. A target date is agreed at kick-off. Engaging a consultant shortens it because the consultant handles the documentation, process setup and audit preparation so your team is not pulled away from operations.',
   },
   {
     question: 'What is the ISO 14001 certification process?',

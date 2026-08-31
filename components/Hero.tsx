@@ -26,17 +26,17 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
           Win ESG-Mandated Contracts
-          <span className="block text-primary-600">Get ISO 14001 Certified in 30 Days</span>
+          <span className="block text-primary-600">Get ISO 14001 Certified</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-4 leading-relaxed">
           Bursa Malaysia now mandates ESG reporting. MNCs are dropping non-compliant suppliers.
           Government green procurement is worth <strong className="text-gray-900">RM 30B+</strong>.
-          ISO 14001 is your entry ticket — and we get you certified from{' '}
-          <strong className="text-gray-900">RM 13,000 in as fast as 30 days</strong>.
+          ISO 14001 is your entry ticket — and our packages start from{' '}
+          <strong className="text-gray-900">RM 13,000</strong>.
         </p>
         <p className="text-sm text-gray-500 mb-10">
-          Trusted by 500+ Malaysian businesses. 98% first-time certification success rate.
+          Malaysia-wide site visits. Free initial consultation.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
@@ -67,8 +67,8 @@ export default function Hero() {
             <div className="text-sm text-gray-500">MNCs Require ESG From Suppliers</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary-600">30 Days</div>
-            <div className="text-sm text-gray-500">To Certified</div>
+            <div className="text-3xl font-bold text-primary-600">RM13k</div>
+            <div className="text-sm text-gray-500">Packages From</div>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'ISO 14001 & ESG Certification Malaysia | From RM13,000',
     template: '%s | ISO 14001 & ESG Malaysia'
   },
-  description: 'ISO 14001 & ESG certification in Malaysia from RM 13,000 in 30 days. ESG compliance, green financing via MGTC GTFS, ESG-mandated contracts. 500+ companies certified, 98% pass rate.',
+  description: 'ISO 14001 & ESG certification in Malaysia from RM 13,000. ESG compliance, green financing via MGTC GTFS, ESG-mandated contracts. Expert EMS consultants, Malaysia-wide.',
   keywords: [
     'ISO 14001 certification Malaysia',
     'ESG certification Malaysia',

@@ -6,7 +6,6 @@ import ProblemSection from '@/components/ProblemSection'
 import CostOfInaction from '@/components/CostOfInaction'
 import ESGSection from '@/components/ESGSection'
 import Benefits from '@/components/Benefits'
-import CaseStudy from '@/components/CaseStudy'
 import WhatsAppCTA from '@/components/WhatsAppCTA'
 import Pricing from '@/components/Pricing'
 import GreenContracts from '@/components/GreenContracts'
@@ -15,7 +14,6 @@ import ComparisonTable from '@/components/ComparisonTable'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import FounderSection from '@/components/FounderSection'
 import GreenIncentives from '@/components/GreenIncentives'
-import Testimonials from '@/components/Testimonials'
 import IndustriesServed from '@/components/IndustriesServed'
 import FAQ from '@/components/FAQ'
 import AnswerBlock from '@/components/AnswerBlock'
@@ -35,7 +33,6 @@ export default function Home() {
         <CostOfInaction />
         <ESGSection />
         <Benefits />
-        <CaseStudy />
         <WhatsAppCTA />
         <Pricing />
         <GreenContracts />
@@ -44,7 +41,6 @@ export default function Home() {
         <WhyChooseUs />
         <FounderSection />
         <GreenIncentives />
-        <Testimonials />
         <IndustriesServed />
         <FAQ />
         <AnswerBlock />

@@ -43,11 +43,11 @@ export default function FounderSection() {
                   environmental management system that actually works for your business — not just one that passes the audit.
                 </p>
                 <p>
-                  Over the past 8+ years, we&apos;ve helped 500+ companies across manufacturing, oil & gas, construction,
+                  Over the past 8+ years, we&apos;ve helped companies across manufacturing, oil & gas, construction,
                   F&B, healthcare, and more achieve ISO 14001 certification. With the rise of ESG requirements,
                   I&apos;ve expanded our expertise to include <strong className="text-gray-900">ESG reporting frameworks,
-                  carbon baseline measurement, and MGTC/GTFS green financing guidance</strong>. Our 98% first-time
-                  pass rate isn&apos;t marketing — it&apos;s the result of hands-on preparation and zero shortcuts.
+                  carbon baseline measurement, and MGTC/GTFS green financing guidance</strong>. How we work isn&apos;t
+                  marketing — it&apos;s hands-on preparation and zero shortcuts.
                 </p>
                 <p className="font-medium text-gray-900">
                   If you&apos;re serious about getting certified, I&apos;m happy to have a no-obligation chat about
@@ -82,16 +82,16 @@ export default function FounderSection() {
                     <div className="text-xs text-gray-500">Years Experience</div>
                   </div>
                   <div>
-                    <div className="text-xl font-bold text-gray-900">500+</div>
-                    <div className="text-xs text-gray-500">Companies Certified</div>
+                    <div className="text-xl font-bold text-gray-900">14001</div>
+                    <div className="text-xs text-gray-500">ISO 14001:2015</div>
                   </div>
                   <div>
-                    <div className="text-xl font-bold text-gray-900">50+</div>
-                    <div className="text-xs text-gray-500">Industries Covered</div>
+                    <div className="text-xl font-bold text-gray-900">ESG</div>
+                    <div className="text-xs text-gray-500">Reporting Support</div>
                   </div>
                   <div>
-                    <div className="text-xl font-bold text-gray-900">98%</div>
-                    <div className="text-xs text-gray-500">Pass Rate</div>
+                    <div className="text-xl font-bold text-gray-900">MY</div>
+                    <div className="text-xs text-gray-500">Nationwide</div>
                   </div>
                 </div>
               </div>

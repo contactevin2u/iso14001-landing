@@ -6,11 +6,11 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Process | 6 Steps to Get Certified',
-  description: 'ISO 14001 certification process in 6 steps. Gap analysis to audit in 30 days. See timelines and what to expect.',
+  description: 'ISO 14001 certification process in 6 steps, from gap analysis through to the certification audit. See what to expect at each stage.',
   keywords: ['ISO 14001 certification process', 'how to get ISO 14001', 'ISO 14001 steps', 'EMS implementation'],
   openGraph: {
     title: 'ISO 14001 Process | 6 Steps to Get Certified',
-    description: 'ISO 14001 certification process in 6 steps. Gap analysis to audit in 30 days.',
+    description: 'ISO 14001 certification process in 6 steps, from gap analysis to the certification audit.',
     url: 'https://esgiso.com/iso-14001-certification-process',
     type: 'website',
   },
@@ -48,10 +48,11 @@ export default function ISO14001CertificationProcess() {
 
             <div className="prose prose-lg max-w-none">
               <div className="bg-primary-50 p-6 rounded-lg mb-8">
-                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Typical Timeline: 30 Days</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Timeline</h2>
                 <p className="text-gray-600 mb-0">
-                  With our streamlined process, most organizations achieve certification within 30 days.
-                  Our efficient approach ensures you get certified quickly without compromising on quality.
+                  Your timeline depends on your size, scope and current environmental practices, plus
+                  the certification body’s audit availability. We agree a target date at kick-off and
+                  work to it without compromising on quality.
                 </p>
               </div>
 

@@ -4,16 +4,16 @@ export default function TrustBar() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-white">500+</div>
-            <div className="text-sm text-gray-400 mt-1">Companies Certified</div>
+            <div className="text-3xl sm:text-4xl font-bold text-white">14001</div>
+            <div className="text-sm text-gray-400 mt-1">ISO 14001:2015</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-white">98%</div>
-            <div className="text-sm text-gray-400 mt-1">First-Time Pass Rate</div>
+            <div className="text-3xl sm:text-4xl font-bold text-white">RM13k</div>
+            <div className="text-sm text-gray-400 mt-1">Packages From</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold text-white">30</div>
-            <div className="text-sm text-gray-400 mt-1">Days to Certification</div>
+            <div className="text-3xl sm:text-4xl font-bold text-white">MY</div>
+            <div className="text-sm text-gray-400 mt-1">Nationwide Visits</div>
           </div>
           <div className="text-center">
             <div className="text-3xl sm:text-4xl font-bold text-white">Since 2016</div>

@@ -6,18 +6,18 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
-  description: 'ISO 14001 certification in Malaysia with 500+ companies certified. Expert EMS consultants, 98% pass rate. From RM 13,000.',
+  description: 'ISO 14001 certification in Malaysia with expert EMS consultants. Gap analysis to certification audit. From RM 13,000.',
   keywords: ['ISO 14001 certification Malaysia', 'EMS certification Malaysia', 'environmental management system Malaysia', 'ISO 14001 consultant Malaysia'],
   openGraph: {
     title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
-    description: 'ISO 14001 certification in Malaysia with 500+ companies certified. Expert EMS consultants, 98% pass rate.',
+    description: 'ISO 14001 certification in Malaysia with expert EMS consultants, from gap analysis to certification audit.',
     url: 'https://esgiso.com/iso-14001-certification-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
-    description: 'ISO 14001 certification in Malaysia. 500+ companies certified, 98% pass rate.',
+    description: 'ISO 14001 certification in Malaysia. Expert EMS consultants, Malaysia-wide.',
   },
   alternates: {
     canonical: 'https://esgiso.com/iso-14001-certification-malaysia',
@@ -159,8 +159,8 @@ export default function ISO14001CertificationMalaysia() {
               <p className="text-gray-600 mb-4">
                 The investment for ISO 14001 certification in Malaysia varies based on organization size and complexity.
                 Our consulting packages start from <strong>RM 13,000</strong>, which includes gap analysis, documentation
-                development, implementation support, and audit preparation. Most organizations achieve certification
-                within 30 days.
+                development, implementation support, and audit preparation. We agree a target certification
+                date with you at kick-off.
               </p>
               <p className="text-gray-600 mb-4">
                 Learn more about <a href="/iso-14001-cost-malaysia" className="text-primary-600 hover:underline">ISO 14001 certification costs in Malaysia</a>.
@@ -176,7 +176,7 @@ export default function ISO14001CertificationMalaysia() {
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-8">
                 <li>Deep understanding of Malaysian regulatory requirements</li>
                 <li>Practical, business-focused approach to EMS implementation</li>
-                <li>100% success rate in certification audits</li>
+                <li>Hands-on preparation for the Stage 1 and Stage 2 certification audits</li>
                 <li>Ongoing support for surveillance audits and continuous improvement</li>
               </ul>
             </div>

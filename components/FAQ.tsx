@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: 'How long does it take to get ISO 14001 certified in Malaysia?',
-    answer: 'With our streamlined process, most organizations achieve certification within 30 days. The exact timeline depends on your organization\'s size, complexity, and current environmental practices. Our efficient approach ensures you get certified quickly without compromising on quality.',
+    answer: 'The timeline depends on your organization\'s size, complexity and current environmental practices, plus the certification body\'s audit availability. We agree a target date at kick-off and work to it. Our streamlined process keeps things moving without compromising on quality.',
   },
   {
     question: 'What is the cost of ISO 14001 certification in Malaysia?',
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'What happens if we fail the certification audit?',
-    answer: 'With our 98% first-time pass rate, audit failure is extremely rare for our clients. However, if minor non-conformities are found during the audit, you typically get 30-90 days to address them — and we help you do that at no extra cost. Major non-conformities may require a follow-up audit. Our thorough internal audit process before the certification audit is specifically designed to identify and resolve any issues beforehand, so there are no surprises on audit day.',
+    answer: 'Outright audit failure is uncommon when the preparation has been done properly. If minor non-conformities are found during the audit, you typically get 30-90 days to address them — and we help you do that at no extra cost. Major non-conformities may require a follow-up audit. Our thorough internal audit process before the certification audit is specifically designed to identify and resolve any issues beforehand, so there are no surprises on audit day.',
   },
   {
     question: 'Do my staff need special training for ISO 14001?',

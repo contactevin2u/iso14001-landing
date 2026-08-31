@@ -7,7 +7,6 @@ const rows = [
   { feature: 'Staff Training', aalive: 'Full workshop + internal auditor training', typical: 'Basic awareness only' },
   { feature: 'Post-Cert Support', aalive: '3–12 months (by package)', typical: 'None after audit' },
   { feature: 'MGTC/GTFS Guidance', aalive: 'Included in Professional & Enterprise', typical: 'Not offered' },
-  { feature: 'First-Time Pass Rate', aalive: '98%', typical: '~70%' },
   { feature: 'Pricing', aalive: 'From RM 13,000 (transparent)', typical: 'RM 15,000–40,000 (hidden fees)' },
   { feature: 'Audit Day Support', aalive: 'Consultant present on audit day', typical: 'You\'re on your own' },
 ]
@@ -20,7 +19,7 @@ export default function ComparisonTable() {
           AA Alive vs Typical ISO Consultants
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12">
-          Not all consultants deliver the same value. See why 500+ Malaysian companies chose us.
+          Not all consultants deliver the same value. Here is how we compare.
         </p>
 
         <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
