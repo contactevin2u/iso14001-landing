@@ -7,10 +7,10 @@ import GclidTracker from '@/components/GclidTracker'
 export const metadata: Metadata = {
   metadataBase: new URL('https://esgiso.com'),
   title: {
-    default: 'ISO 14001 & ESG Consulting Malaysia | From RM5,000',
+    default: 'ISO 14001 & ESG Consulting Malaysia | From RM7,500',
     template: '%s | ISO 14001 & ESG Malaysia'
   },
-  description: 'ISO 14001 & ESG consulting in Malaysia from RM 5,000. We prepare you for ISO 14001 certification by an accredited certification body. EMS consultants, Malaysia-wide.',
+  description: 'ISO 14001 & ESG consulting in Malaysia from RM 7,500. We prepare you for ISO 14001 certification by an accredited certification body. EMS consultants, Malaysia-wide.',
   keywords: [
     'ISO 14001 certification Malaysia',
     'ESG consulting Malaysia',
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
     locale: 'en_MY',
     url: 'https://esgiso.com',
     siteName: 'ISO 14001 Malaysia',
-    title: 'ISO 14001 & ESG Consulting Malaysia | From RM5,000',
-    description: 'ISO 14001 & ESG consulting in Malaysia from RM 5,000. EMS implementation, ESG reporting frameworks and preparation for your certification body audit.',
+    title: 'ISO 14001 & ESG Consulting Malaysia | From RM7,500',
+    description: 'ISO 14001 & ESG consulting in Malaysia from RM 7,500. EMS implementation, ESG reporting frameworks and preparation for your certification body audit.',
     images: [
       {
         // /og-image.jpg never existed (404). logo.png is the only brand image in public/.
@@ -68,8 +68,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'ISO 14001 & ESG Consulting Malaysia | From RM5,000',
-    description: 'ISO 14001 & ESG consulting in Malaysia from RM 5,000. EMS implementation, ESG reporting frameworks and preparation for your certification body audit.',
+    title: 'ISO 14001 & ESG Consulting Malaysia | From RM7,500',
+    description: 'ISO 14001 & ESG consulting in Malaysia from RM 7,500. EMS implementation, ESG reporting frameworks and preparation for your certification body audit.',
     images: ['/logo.png'],
   },
   alternates: {

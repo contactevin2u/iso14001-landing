@@ -105,7 +105,7 @@ export default function StructuredData() {
         closes: '13:00',
       },
     ],
-    priceRange: 'RM5,000 - RM22,000; Enterprise by quotation',
+    priceRange: 'RM7,500 - RM22,000; Enterprise by quotation',
     areaServed: {
       '@type': 'Country',
       name: 'Malaysia',
@@ -183,11 +183,11 @@ export default function StructuredData() {
     },
     offers: {
       '@type': 'Offer',
-      price: '5000',
+      price: '7500',
       priceCurrency: 'MYR',
       priceValidUntil: '2026-12-31',
       availability: 'https://schema.org/InStock',
-      description: 'ISO 14001 consulting (SME) from RM 5,000. Certification body audit from RM 5,000, depending on premises size, quoted separately.',
+      description: 'ISO 14001 consulting (SME) from RM 7,500. Certification body audit RM 7,650, quoted separately.',
     },
     providerMobility: 'dynamic',
   }

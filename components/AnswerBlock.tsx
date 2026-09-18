@@ -2,7 +2,7 @@ const answers: { question: string; answer: string }[] = [
   {
     question: 'How much does ISO 14001 certification cost in Malaysia?',
     answer:
-      'ISO 14001 certification consulting in Malaysia costs from RM 5,000 for SMEs (up to 50 employees, single site), plus a certification body audit from RM 5,000 depending on premises size. The Professional package for 50–200 employees across up to 3 sites is RM 22,000 and includes an ESG reporting framework, carbon baseline measurement and MGTC/GTFS green financing guidance. Enterprise packages are custom-quoted. Certification body audit fees are charged separately.',
+      'ISO 14001 certification consulting in Malaysia costs from RM 7,500 for SMEs (up to 50 employees, single site), plus a certification body audit of RM 7,650. The Professional package for 50–200 employees across up to 3 sites is RM 22,000 and includes an ESG reporting framework, carbon baseline measurement and MGTC/GTFS green financing guidance. Enterprise packages are custom-quoted. Certification body audit fees are charged separately.',
   },
   {
     question: 'How long does ISO 14001 certification take in Malaysia?',
@@ -25,7 +25,7 @@ const answersBm: { question: string; answer: string }[] = [
   {
     question: 'Berapakah kos pensijilan ISO 14001 di Malaysia?',
     answer:
-      'Kos perundingan pensijilan ISO 14001 di Malaysia bermula dari RM 5,000 untuk PKS (sehingga 50 pekerja, satu tapak), ditambah audit badan pensijilan bermula RM 5,000 bergantung pada saiz premis. Pakej Professional untuk syarikat 50–200 pekerja ialah RM 22,000 dan merangkumi rangka kerja pelaporan ESG, pengukuran garis asas karbon serta panduan pembiayaan hijau MGTC/GTFS. Yuran badan pensijilan (SIRIM, BSI, TUV, SGS) dikenakan secara berasingan.',
+      'Kos perundingan pensijilan ISO 14001 di Malaysia bermula dari RM 7,500 untuk PKS (sehingga 50 pekerja, satu tapak), ditambah audit badan pensijilan RM 7,650. Pakej Professional untuk syarikat 50–200 pekerja ialah RM 22,000 dan merangkumi rangka kerja pelaporan ESG, pengukuran garis asas karbon serta panduan pembiayaan hijau MGTC/GTFS. Yuran badan pensijilan (SIRIM, BSI, TUV, SGS) dikenakan secara berasingan.',
   },
   {
     question: 'Berapa lama tempoh untuk mendapatkan sijil ISO 14001?',

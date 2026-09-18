@@ -26,7 +26,7 @@ We are ISO 14001:2015 environmental management system (EMS) consultants. We help
 ## Consulting packages (as published on https://esgiso.com/#pricing)
 | Package | Organisation size | Consulting fee |
 |---|---|---|
-| SME | Under 50 employees, single site | From RM 5,000 (+ certification body audit from RM 5,000, depends on premises size) |
+| SME | Under 50 employees, single site | RM 7,500 (+ certification body audit RM 7,650) |
 | Professional | 50–200 employees, up to 3 sites | RM 22,000 |
 | Enterprise | 200+ employees, multi-site operations | Custom quotation |
 

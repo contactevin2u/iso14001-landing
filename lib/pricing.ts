@@ -4,9 +4,9 @@
  * the /iso-14001-cost-malaysia page so the two can never disagree.
  *
  * Certification body (CB) audit fees are NOT included; they are quoted
- * separately. SME pricing set by the owner 18 Sep 2026: "ISO14001 my cost
- * RM5000, CAB Cost RM5000" - shown as FROM prices; the CB audit depends on
- * premises size. Professional and Enterprise unchanged.
+ * separately. SME pricing confirmed by the owner 18 Sep 2026: consulting
+ * RM7,500 + certification body audit RM7,650 (the LEADER flat rate in the
+ * billing catalogue). Professional and Enterprise unchanged.
  */
 export interface PricingTier {
   name: string
@@ -21,8 +21,8 @@ export interface PricingTier {
 export const PRICING_TIERS: PricingTier[] = [
   {
     name: 'SME',
-    price: 'From RM 5,000',
-    priceNote: '+ certification body audit from RM 5,000 (depends on premises size)',
+    price: 'RM 7,500',
+    priceNote: '+ certification body audit RM 7,650',
     description: 'For small businesses under 50 employees, single site',
     highlight: false,
     features: [

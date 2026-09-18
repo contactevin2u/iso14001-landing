@@ -17,8 +17,8 @@ export default function Hero() {
           Customers, investors and regulators increasingly ask how your business manages its
           environmental impact. We help you build an ISO 14001 environmental management system and
           prepare for certification by an accredited certification body. Consulting starts from{' '}
-          <strong className="text-gray-900">RM 5,000</strong>, and the certification body audit from{' '}
-          <strong className="text-gray-900">RM 5,000</strong>, depending on the size of your premises.
+          <strong className="text-gray-900">RM 7,500</strong>, and the certification body audit is{' '}
+          <strong className="text-gray-900">RM 7,650</strong>.
         </p>
         <p className="text-sm text-gray-500 mb-10">
           Malaysia-wide site visits. Free initial consultation.
