@@ -1,14 +1,8 @@
 'use client'
 
-import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
+import { onWhatsAppClick } from '@/lib/whatsapp'
 
 import { useState, useEffect } from 'react'
-
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean
-  }
-}
 
 export default function FloatingWhatsApp() {
   const phoneNumber = '60102062070'
@@ -21,16 +15,6 @@ export default function FloatingWhatsApp() {
     const hide = setTimeout(() => setShowLabel(false), 8000)
     return () => { clearTimeout(timer); clearTimeout(hide) }
   }, [])
-
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault()
-    const taggedUrl = getWhatsAppUrlWithBeacon(waUrl)
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(taggedUrl)
-    } else {
-      window.open(taggedUrl, '_blank')
-    }
-  }
 
   return (
     <div className="fixed bottom-0 right-0 z-50 p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] sm:p-6">
@@ -47,7 +31,7 @@ export default function FloatingWhatsApp() {
         {/* WhatsApp button - bigger on mobile */}
         <a
           href={waUrl}
-          onClick={handleClick}
+          onClick={onWhatsAppClick}
           onMouseEnter={() => setShowLabel(true)}
           onMouseLeave={() => setShowLabel(false)}
           target="_blank"
@@ -67,7 +51,7 @@ export default function FloatingWhatsApp() {
       {/* Mobile bottom bar CTA */}
       <a
         href={waUrl}
-        onClick={handleClick}
+        onClick={onWhatsAppClick}
         className="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#25D366] text-white py-3 px-4 flex items-center justify-center gap-2 font-medium text-sm safe-bottom"
       >
         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

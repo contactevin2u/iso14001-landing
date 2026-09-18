@@ -6,6 +6,7 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 import { PRICING_TIERS } from '@/lib/pricing'
+import WhatsAppAnchor from '@/components/WhatsAppAnchor'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Cost Malaysia | From RM5,000 (2026)',
@@ -258,14 +259,12 @@ export default function ISO14001CostMalaysia() {
                 >
                   Get Free Quote
                 </a>
-                <a
+                <WhatsAppAnchor
                   href="https://wa.me/60102062070"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 py-3 border border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-50 transition-colors"
                 >
                   WhatsApp Us
-                </a>
+                </WhatsAppAnchor>
               </div>
             </div>
           </div>

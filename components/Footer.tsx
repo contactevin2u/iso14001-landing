@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import WhatsAppAnchor from '@/components/WhatsAppAnchor'
 
 export default function Footer() {
   return (
@@ -100,14 +101,12 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a
+                <WhatsAppAnchor
                   href="https://wa.me/60102062070"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
                   WhatsApp Us
-                </a>
+                </WhatsAppAnchor>
               </li>
               <li className="pt-2 text-xs text-gray-500">
                 AA Alive Sdn. Bhd. (1204108-D)<br />

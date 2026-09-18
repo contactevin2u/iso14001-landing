@@ -1,14 +1,8 @@
 'use client'
 
-import { getWhatsAppUrlWithBeacon } from '@/lib/beacon'
+import { onWhatsAppClick, openWhatsApp } from '@/lib/whatsapp'
 
 import { useState } from 'react'
-
-declare global {
-  interface Window {
-    gtag_report_conversion: (url?: string) => boolean
-  }
-}
 
 const WHATSAPP_NUMBER = '+60102062070'
 
@@ -49,25 +43,7 @@ export default function Contact() {
 
     const text = `New ESG/ISO 14001 Enquiry\nName: ${formData.name}\nCompany: ${formData.company}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nPrimary Goal: ${formData.goal}\nIndustry: ${formData.industry}\nMessage:\n${formData.message}`
 
-    const url = getWhatsAppUrlWithBeacon(
-      `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`
-    )
-
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(url)
-    } else {
-      window.open(url, '_blank')
-    }
-  }
-
-  const handleWhatsAppClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault()
-    const url = getWhatsAppUrlWithBeacon(`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}`)
-    if (typeof window.gtag_report_conversion === 'function') {
-      window.gtag_report_conversion(url)
-    } else {
-      window.open(url, '_blank')
-    }
+    openWhatsApp(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`)
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -126,7 +102,7 @@ export default function Contact() {
                   <div className="font-medium text-gray-200">WhatsApp</div>
                   <a
                     href="https://wa.me/60102062070"
-                    onClick={handleWhatsAppClick}
+                    onClick={onWhatsAppClick}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white transition-colors"

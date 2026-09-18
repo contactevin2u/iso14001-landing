@@ -6,6 +6,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 import { getFounderVideoByYouTubeId, videoRef, watchPath } from '@/lib/videos'
+import WhatsAppAnchor from '@/components/WhatsAppAnchor'
 
 const bernama = getFounderVideoByYouTubeId('p0rcj7kaqpQ')
 const superbrands = getFounderVideoByYouTubeId('4Y7hNFsM3Jk')
@@ -185,14 +186,12 @@ export default function AboutPage() {
               </a>
             </p>
 
-            <a
+            <WhatsAppAnchor
               href="https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20discuss%20ISO%2014001%20certification%20for%20my%20business."
-              target="_blank"
-              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors"
             >
               WhatsApp Us for a Free Consultation
-            </a>
+            </WhatsAppAnchor>
           </div>
         </section>
         <RelatedGuides current="/about" />

@@ -1,3 +1,5 @@
+import WhatsAppAnchor from '@/components/WhatsAppAnchor'
+
 const industries = [
   {
     name: 'Manufacturing',
@@ -103,13 +105,11 @@ export default function IndustriesServed() {
         <div className="mt-12 p-6 bg-primary-50 rounded-xl border border-primary-100 text-center">
           <p className="text-primary-800 font-medium">
             Don&apos;t see your industry? ISO 14001 applies to organisations of any size and sector.
-            <a href="https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20know%20if%20ISO%2014001%20applies%20to%20my%20industry."
-               target="_blank"
-               rel="noopener noreferrer"
+            <WhatsAppAnchor href="https://wa.me/60102062070?text=Hi%2C%20I%20want%20to%20know%20if%20ISO%2014001%20applies%20to%20my%20industry."
                className="underline hover:no-underline ml-1"
             >
               Chat with us to check
-            </a>.
+            </WhatsAppAnchor>.
           </p>
         </div>
       </div>

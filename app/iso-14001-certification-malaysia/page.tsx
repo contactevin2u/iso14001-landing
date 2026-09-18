@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
+import WhatsAppAnchor from '@/components/WhatsAppAnchor'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Certification Malaysia | EMS Consulting Guide',
@@ -194,14 +195,12 @@ export default function ISO14001CertificationMalaysia() {
                 >
                   Get Free Consultation
                 </a>
-                <a
+                <WhatsAppAnchor
                   href="https://wa.me/60102062070"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 py-3 border border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-50 transition-colors"
                 >
                   WhatsApp Us
-                </a>
+                </WhatsAppAnchor>
               </div>
             </div>
           </div>
