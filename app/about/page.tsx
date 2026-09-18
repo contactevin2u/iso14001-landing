@@ -153,7 +153,7 @@ export default function AboutPage() {
                 <Link href="/iso-14001-certification-malaysia" className="text-primary-600 hover:text-primary-700 underline">
                   ISO 14001 certification consulting
                 </Link>{' '}
-                — gap analysis to your certification audit, from RM 13,000
+                — gap analysis to your certification audit, consulting from RM 5,000
               </li>
               <li>ESG reporting frameworks, carbon baseline measurement and MGTC/GTFS green financing guidance</li>
               <li>

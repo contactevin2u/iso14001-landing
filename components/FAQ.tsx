@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: 'What is the cost of ISO 14001 certification in Malaysia?',
-    answer: 'Our ISO 14001 certification consulting packages start from RM 13,000 for SMEs (under 50 employees, single site). Our Professional package for mid-sized businesses (50-200 employees, up to 3 sites) is RM 22,000 and includes ESG reporting framework, carbon baseline, and MGTC/GTFS guidance. Enterprise packages for larger organizations are custom-quoted. Certification body audit fees are separate.',
+    answer: 'Our ISO 14001 certification consulting starts from RM 5,000 for SMEs (under 50 employees, single site), and the certification body audit from RM 5,000 depending on premises size. Our Professional package for mid-sized businesses (50-200 employees, up to 3 sites) is RM 22,000 and includes ESG reporting framework, carbon baseline, and MGTC/GTFS guidance. Enterprise packages for larger organizations are custom-quoted. Certification body audit fees are separate.',
   },
   {
     question: 'What are the key requirements of ISO 14001:2015?',

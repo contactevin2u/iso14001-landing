@@ -32,8 +32,9 @@ export default function Hero() {
         <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-4 leading-relaxed">
           Customers, investors and regulators increasingly ask how your business manages its
           environmental impact. We help you build an ISO 14001 environmental management system and
-          prepare for certification by an accredited certification body. Consulting packages start from{' '}
-          <strong className="text-gray-900">RM 13,000</strong>.
+          prepare for certification by an accredited certification body. Consulting starts from{' '}
+          <strong className="text-gray-900">RM 5,000</strong>, and the certification body audit from{' '}
+          <strong className="text-gray-900">RM 5,000</strong>, depending on the size of your premises.
         </p>
         <p className="text-sm text-gray-500 mb-10">
           Malaysia-wide site visits. Free initial consultation.

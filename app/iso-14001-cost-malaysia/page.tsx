@@ -8,19 +8,19 @@ import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 import { PRICING_TIERS } from '@/lib/pricing'
 
 export const metadata: Metadata = {
-  title: 'ISO 14001 Cost Malaysia | From RM13,000 (2026)',
-  description: 'ISO 14001 certification cost in Malaysia from RM 13,000. Full pricing breakdown: consulting, audit fees, and maintenance.',
+  title: 'ISO 14001 Cost Malaysia | From RM5,000 (2026)',
+  description: 'ISO 14001 certification cost in Malaysia: consulting from RM 5,000, certification body audit from RM 5,000. Full breakdown of consulting, audit and maintenance.',
   keywords: ['ISO 14001 cost Malaysia', 'ISO 14001 price', 'ISO 14001 certification cost', 'EMS certification price Malaysia'],
   openGraph: {
-    title: 'ISO 14001 Cost Malaysia | From RM13,000 (2026)',
-    description: 'ISO 14001 cost in Malaysia from RM 13,000. Full pricing breakdown.',
+    title: 'ISO 14001 Cost Malaysia | From RM5,000 (2026)',
+    description: 'ISO 14001 cost in Malaysia: consulting from RM 5,000 + certification body audit from RM 5,000.',
     url: 'https://esgiso.com/iso-14001-cost-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Cost Malaysia | From RM13,000 (2026)',
-    description: 'ISO 14001 cost Malaysia from RM 13,000. Full pricing guide.',
+    title: 'ISO 14001 Cost Malaysia | From RM5,000 (2026)',
+    description: 'ISO 14001 cost Malaysia: consulting from RM 5,000 + audit from RM 5,000.',
   },
   alternates: {
     canonical: 'https://esgiso.com/iso-14001-cost-malaysia',
@@ -46,20 +46,21 @@ export default function ISO14001CostMalaysia() {
             </h1>
             <p className="text-sm text-gray-500 mb-4">Last updated: {CONTENT_LAST_UPDATED}</p>
             <p className="text-xl text-gray-600 mb-8">
-              ISO 14001 certification consulting in Malaysia costs from RM 13,000. The timeline depends
+              ISO 14001 certification consulting in Malaysia costs from RM 5,000. The timeline depends
               on your organisation&apos;s readiness and the certification body&apos;s audit schedule, and a
-              target date is agreed with you at gap analysis. Certification body audit fees are charged
-              separately, typically RM 4,000 to RM 12,000 for the initial Stage 1 and Stage 2 audits. Below is the full
+              target date is agreed with you at gap analysis. The certification body audit is charged
+              separately and starts from RM 5,000, depending on the size of your premises. Below is the full
               breakdown of every investment component — consulting fees, certification body costs,
               and ongoing maintenance.
             </p>
 
             <div className="prose prose-lg max-w-none">
               <div className="bg-primary-50 p-6 rounded-lg mb-8">
-                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Our Consulting Packages Start From RM 13,000</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-2 mt-0">Consulting From RM 5,000, Certification Audit From RM 5,000</h2>
                 <p className="text-gray-600 mb-0">
-                  This includes gap analysis, documentation development, implementation support, training,
-                  and audit preparation. The exact investment depends on your organization&apos;s size and complexity.
+                  Consulting includes gap analysis, documentation development, implementation support, training,
+                  and audit preparation. The certification body&apos;s audit is a separate line and depends on the
+                  size of your premises. Both are fixed in writing after the gap analysis.
                 </p>
               </div>
 
@@ -96,6 +97,9 @@ export default function ISO14001CostMalaysia() {
                       <p className="text-2xl font-bold text-primary-600">
                         {tier.price === 'Custom' ? 'Custom Quote' : tier.price}
                       </p>
+                      {tier.priceNote && (
+                        <p className="text-sm font-medium text-primary-700">{tier.priceNote}</p>
+                      )}
                       <p className="text-sm text-gray-600">{tier.description}</p>
                     </div>
                     <div className="p-4">
@@ -118,8 +122,9 @@ export default function ISO14001CostMalaysia() {
                 2. Certification Body Fees
               </h2>
               <p className="text-gray-600 mb-4">
-                Certification body fees are separate from consulting fees and paid directly to your chosen
-                accredited certification body. These typically include:
+                Certification body fees are separate from consulting fees. When we arrange the audit, the
+                initial certification audit starts from RM 5,000, depending on the size of your premises.
+                Across the market, certification body fees typically include:
               </p>
               <div className="bg-gray-50 p-6 rounded-lg mb-6">
                 <table className="w-full text-gray-600">

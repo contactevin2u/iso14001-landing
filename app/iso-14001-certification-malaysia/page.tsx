@@ -7,7 +7,7 @@ import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Certification Malaysia | EMS Consulting Guide',
-  description: 'ISO 14001 certification in Malaysia: EMS consulting from gap analysis to your certification body audit. From RM 13,000.',
+  description: 'ISO 14001 certification in Malaysia: EMS consulting from gap analysis to your certification body audit. Consulting from RM 5,000.',
   keywords: ['ISO 14001 certification Malaysia', 'EMS certification Malaysia', 'environmental management system Malaysia', 'ISO 14001 consultant Malaysia'],
   openGraph: {
     title: 'ISO 14001 Certification Malaysia | EMS Consulting Guide',
@@ -157,8 +157,9 @@ export default function ISO14001CertificationMalaysia() {
               </h2>
               <p className="text-gray-600 mb-4">
                 The investment for ISO 14001 certification in Malaysia varies based on organization size and complexity.
-                Our consulting packages start from <strong>RM 13,000</strong>, which includes gap analysis, documentation
-                development, implementation support, and audit preparation. We agree a target certification
+                Our consulting starts from <strong>RM 5,000</strong>, which includes gap analysis, documentation
+                development, implementation support, and audit preparation. The certification body audit is
+                separate and starts from <strong>RM 5,000</strong>, depending on the size of your premises. We agree a target certification
                 date with you at kick-off.
               </p>
               <p className="text-gray-600 mb-4">

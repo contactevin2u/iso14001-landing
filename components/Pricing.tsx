@@ -28,6 +28,9 @@ export default function Pricing() {
               <div className="text-center mb-8">
                 <div className="text-sm font-medium text-primary-600 mb-2">{tier.name}</div>
                 <div className="text-4xl sm:text-5xl font-bold text-gray-900 mb-2">{tier.price}</div>
+                {tier.priceNote && (
+                  <p className="text-sm font-medium text-primary-700 mb-2">{tier.priceNote}</p>
+                )}
                 <p className="text-sm text-gray-500">{tier.description}</p>
               </div>
 

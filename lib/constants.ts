@@ -6,4 +6,4 @@
  * Update this ONE constant whenever pricing or cost figures materially
  * change — never hard-code the date in page files.
  */
-export const CONTENT_LAST_UPDATED = '12 July 2026'
+export const CONTENT_LAST_UPDATED = '18 September 2026'
