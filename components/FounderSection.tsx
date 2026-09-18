@@ -73,6 +73,12 @@ export default function FounderSection() {
                 >
                   or email contact@evin2u.com
                 </a>
+                <a
+                  href="/about"
+                  className="text-sm text-primary-600 hover:text-primary-700 underline transition-colors"
+                >
+                  About AA Alive &amp; Evin Lim
+                </a>
               </div>
 
               <div className="mt-8 pt-6 border-t border-gray-200">

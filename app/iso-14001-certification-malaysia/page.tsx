@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
@@ -114,7 +115,7 @@ export default function ISO14001CertificationMalaysia() {
                 Achieving ISO 14001 certification in Malaysia typically follows these steps:
               </p>
               <ol className="list-decimal pl-6 text-gray-600 space-y-3 mb-4">
-                <li><strong>Gap Analysis:</strong> Assess current environmental practices against ISO 14001 requirements</li>
+                <li><strong>Gap Analysis:</strong> Assess current environmental practices against <a href="/iso-14001-requirements" className="text-primary-600 hover:underline">ISO 14001 requirements</a></li>
                 <li><strong>EMS Development:</strong> Create environmental policy, identify aspects/impacts, set objectives</li>
                 <li><strong>Documentation:</strong> Develop required procedures and records</li>
                 <li><strong>Implementation:</strong> Put the EMS into practice across the organization</li>
@@ -207,6 +208,7 @@ export default function ISO14001CertificationMalaysia() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-14001-certification-malaysia" />
       </main>
       <Footer />
       <FloatingWhatsApp />

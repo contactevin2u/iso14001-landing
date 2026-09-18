@@ -58,24 +58,22 @@ export const metadata: Metadata = {
     description: 'ISO 14001 & ESG certification in Malaysia from RM 13,000. Win ESG-mandated contracts, unlock green financing, and build your ESG reporting framework.',
     images: [
       {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
+        // /og-image.jpg never existed (404). logo.png is the only brand image in public/.
+        url: '/logo.png',
+        width: 180,
+        height: 180,
         alt: 'ISO 14001 & ESG Certification Malaysia',
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'ISO 14001 & ESG Certification Malaysia | From RM13,000',
     description: 'ISO 14001 & ESG certification in Malaysia from RM 13,000. Win ESG-mandated contracts, unlock green financing, and build your ESG reporting framework.',
-    images: ['/og-image.jpg'],
+    images: ['/logo.png'],
   },
   alternates: {
     canonical: 'https://esgiso.com',
-  },
-  verification: {
-    google: 'your-google-verification-code',
   },
   other: {
     'theme-color': '#16a34a',

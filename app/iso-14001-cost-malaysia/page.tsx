@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 import { CONTENT_LAST_UPDATED } from '@/lib/constants'
 
 export const metadata: Metadata = {
@@ -370,6 +371,7 @@ export default function ISO14001CostMalaysia() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-14001-cost-malaysia" />
       </main>
       <Footer />
       <FloatingWhatsApp />

@@ -124,7 +124,10 @@ export default function Pricing() {
 
         <p className="text-center text-gray-500 text-sm mt-8">
           Certification body (CB) audit fees are quoted separately based on your chosen CB.
-          Flexible payment plans available for all packages.
+          Flexible payment plans available for all packages.{' '}
+          <a href="/iso-14001-cost-malaysia" className="text-primary-600 hover:text-primary-700 underline">
+            See the full ISO 14001 cost breakdown
+          </a>
         </p>
       </div>
     </section>

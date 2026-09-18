@@ -21,7 +21,7 @@ export default function WhatIsISO() {
             </h3>
             <p className="mb-4">
               ISO 14001:2015 follows the High-Level Structure (HLS) common to all ISO management system standards. This makes it
-              easier to integrate with other certifications like <a href="/iso-14001-requirements" className="text-primary-600 hover:underline">ISO 9001 (Quality)</a> and
+              easier to integrate with other certifications like <a href="https://isoconsultantmalaysia.com/iso-9001-requirements" rel="noopener" className="text-primary-600 hover:underline">ISO 9001 (Quality)</a> and
               ISO 45001 (Occupational Health & Safety). The standard is organized into 10 clauses, with clauses 4-10 containing
               the requirements for certification.
             </p>

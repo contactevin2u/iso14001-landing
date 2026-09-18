@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Process | 6 Steps to Get Certified',
@@ -78,7 +79,7 @@ export default function ISO14001CertificationProcess() {
                 Step 2: Gap Analysis (Days 2-4)
               </h3>
               <p className="text-gray-600 mb-4">
-                A comprehensive gap analysis compares your current practices against ISO 14001:2015 requirements:
+                A comprehensive gap analysis compares your current practices against <a href="/iso-14001-requirements" className="text-primary-600 hover:underline">ISO 14001:2015 requirements</a>:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
                 <li>Review existing environmental documentation and records</li>
@@ -329,6 +330,7 @@ export default function ISO14001CertificationProcess() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-14001-certification-process" />
       </main>
       <Footer />
       <FloatingWhatsApp />

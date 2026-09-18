@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Requirements | Checklist & Guide 2026',
@@ -300,6 +301,7 @@ export default function ISO14001Requirements() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-14001-requirements" />
       </main>
       <Footer />
       <FloatingWhatsApp />

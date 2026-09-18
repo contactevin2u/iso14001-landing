@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Benefits | Why Your Business Needs It',
@@ -232,6 +233,7 @@ export default function ISO14001Benefits() {
             </div>
           </div>
         </section>
+        <RelatedGuides current="/iso-14001-benefits" />
       </main>
       <Footer />
       <FloatingWhatsApp />

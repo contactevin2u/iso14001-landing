@@ -42,40 +42,41 @@ export default function Header() {
                 </svg>
               </button>
 
-              {isResourcesOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2">
-                  <Link
-                    href="/iso-14001-certification-malaysia"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    ISO 14001 Certification Malaysia
-                  </Link>
-                  <Link
-                    href="/iso-14001-benefits"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    Benefits of ISO 14001
-                  </Link>
-                  <Link
-                    href="/iso-14001-requirements"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    ISO 14001 Requirements
-                  </Link>
-                  <Link
-                    href="/iso-14001-certification-process"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    Certification Process
-                  </Link>
-                  <Link
-                    href="/iso-14001-cost-malaysia"
-                    className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
-                  >
-                    Certification Cost
-                  </Link>
-                </div>
-              )}
+              {/* Always rendered (hidden via CSS when closed) so the guide links are in the server HTML for crawlers. */}
+              <div
+                className={`${isResourcesOpen ? 'block' : 'hidden'} absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-100 py-2`}
+              >
+                <Link
+                  href="/iso-14001-certification-malaysia"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  ISO 14001 Certification Malaysia
+                </Link>
+                <Link
+                  href="/iso-14001-benefits"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  Benefits of ISO 14001
+                </Link>
+                <Link
+                  href="/iso-14001-requirements"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  ISO 14001 Requirements
+                </Link>
+                <Link
+                  href="/iso-14001-certification-process"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  Certification Process
+                </Link>
+                <Link
+                  href="/iso-14001-cost-malaysia"
+                  className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                >
+                  Certification Cost
+                </Link>
+              </div>
             </div>
 
             <a href="/#contact" className="text-primary-600 hover:text-primary-700 transition-colors text-sm font-medium">
