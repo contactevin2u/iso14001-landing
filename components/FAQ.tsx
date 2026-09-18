@@ -5,7 +5,7 @@ import { useState } from 'react'
 const faqs = [
   {
     question: 'What is ISO 14001 certification and why is it important for Malaysian businesses?',
-    answer: 'ISO 14001 is an internationally recognized standard for Environmental Management Systems (EMS). For Malaysian businesses, it demonstrates commitment to environmental responsibility, helps meet regulatory requirements from DOE (Department of Environment), and opens doors to international markets and green procurement opportunities. Many multinational corporations require suppliers to be ISO 14001 certified.',
+    answer: 'ISO 14001 is an internationally recognized standard for Environmental Management Systems (EMS). For Malaysian businesses, it demonstrates commitment to environmental responsibility, helps meet regulatory requirements from DOE (Department of Environment), and can support access to international markets and green procurement. ISO 14001 is often requested by larger buyers and supply chains.',
   },
   {
     question: 'How long does it take to get ISO 14001 certified in Malaysia?',
@@ -33,15 +33,15 @@ const faqs = [
   },
   {
     question: 'Can ISO 14001 be integrated with ISO 9001 and ISO 45001?',
-    answer: 'Yes, absolutely. ISO 14001:2015 uses the same Annex SL high-level structure as ISO 9001 (Quality) and ISO 45001 (Occupational Health & Safety). This means they share common clauses like Context of Organization, Leadership, Planning, Support, and Performance Evaluation. We specialize in Integrated Management Systems (IMS) — if you already have ISO 9001, adding ISO 14001 is significantly faster and cheaper because we build on your existing framework instead of starting from scratch.',
+    answer: 'Yes, absolutely. ISO 14001:2015 uses the same Annex SL high-level structure as ISO 9001 (Quality) and ISO 45001 (Occupational Health & Safety). This means they share common clauses like Context of Organization, Leadership, Planning, Support, and Performance Evaluation. We also set up Integrated Management Systems (IMS) — if you already have ISO 9001, ISO 14001 can build on your existing framework instead of starting from scratch.',
   },
   {
     question: 'What industries need ISO 14001 certification in Malaysia?',
-    answer: 'While ISO 14001 is voluntary, it\'s effectively mandatory in several sectors. Manufacturing companies (especially those supplying to MNCs like Toyota, Samsung, or Bosch) are frequently required to hold ISO 14001. Oil & gas companies need it for Petronas vendor registration. Construction firms need it for government projects and GBI (Green Building Index) compliance. Food manufacturers, logistics companies, healthcare providers, property developers, and tech companies also increasingly require it for tender eligibility and regulatory compliance.',
+    answer: 'ISO 14001 is a voluntary standard. It is often requested by larger buyers and supply chains, for example in manufacturing, oil & gas, construction and export-oriented businesses, and some tenders and vendor-registration processes ask for it. Whether your business needs it depends on your customers, tenders and markets. We can help you check this during a free first consultation.',
   },
   {
     question: 'What happens if we fail the certification audit?',
-    answer: 'Outright audit failure is uncommon when the preparation has been done properly. If minor non-conformities are found during the audit, you typically get 30-90 days to address them — and we help you do that at no extra cost. Major non-conformities may require a follow-up audit. Our thorough internal audit process before the certification audit is specifically designed to identify and resolve any issues beforehand, so there are no surprises on audit day.',
+    answer: 'The certification body decides the outcome of its audit. If minor non-conformities are found, you typically get 30-90 days to address them, and we help you do that at no extra cost. Major non-conformities may require a follow-up audit. Our internal audit before the certification audit is designed to identify and resolve issues beforehand.',
   },
   {
     question: 'Do my staff need special training for ISO 14001?',
@@ -57,19 +57,19 @@ const faqs = [
   },
   {
     question: 'How does ISO 14001 help with ESG compliance?',
-    answer: 'ISO 14001 directly addresses the "E" (Environmental) pillar of ESG. It provides the systematic framework for tracking carbon emissions, waste metrics, energy consumption, and environmental KPIs — exactly the data required for Bursa Malaysia sustainability reporting, FTSE4Good assessments, and MNC ESG supplier audits. Our Professional and Enterprise packages include ESG reporting framework setup and carbon baseline measurement to maximize your ESG readiness.',
+    answer: 'ISO 14001 directly addresses the "E" (Environmental) pillar of ESG. It provides a systematic framework for tracking carbon emissions, waste, energy consumption and environmental KPIs, data that supports sustainability reporting and customer ESG questionnaires. Our Professional and Enterprise packages include ESG reporting framework setup and carbon baseline measurement.',
   },
   {
-    question: 'How do I qualify for MGTC green financing with ISO 14001?',
-    answer: 'The MGTC Green Technology Financing Scheme (GTFS 3.0) offers a 2% interest subsidy on green technology loans up to RM 100M. ISO 14001 certification is one of the qualifying requirements, demonstrating your organization\'s commitment to environmental management. Our Professional and Enterprise packages include MGTC/GTFS application guidance to help you navigate the process and maximize your chances of approval.',
+    question: 'Does ISO 14001 help with MGTC green financing?',
+    answer: 'MGTC administers green financing schemes such as the Green Technology Financing Scheme (GTFS). Eligibility is set by each scheme and assessed by MGTC and the participating financial institutions, not by us, and ISO 14001 certification does not by itself make a company eligible. An EMS can help you document the environmental aspects of your operations, and our Professional and Enterprise packages include guidance on preparing GTFS applications.',
   },
   {
     question: 'Does ISO 14001 help with carbon neutrality goals?',
-    answer: 'ISO 14001 is the foundation for any carbon neutrality journey. It requires you to identify and measure significant environmental aspects — including carbon emissions sources. While ISO 14001 itself doesn\'t mandate carbon neutrality, the management system it creates enables you to set carbon reduction targets, track progress, and demonstrate measurable improvements. Our Enterprise package includes a carbon neutrality roadmap to guide your long-term decarbonization strategy.',
+    answer: 'ISO 14001 can be a foundation for a carbon neutrality journey. It requires you to identify and measure significant environmental aspects — including carbon emissions sources. While ISO 14001 itself doesn\'t mandate carbon neutrality, the management system it creates enables you to set carbon reduction targets, track progress, and demonstrate measurable improvements. Our Enterprise package includes a carbon neutrality roadmap to guide your long-term decarbonization strategy.',
   },
   {
     question: 'What are the requirements for becoming a Bursa-listed supply chain supplier?',
-    answer: 'Bursa Malaysia now mandates sustainability reporting for listed companies, and this requirement cascades to their supply chains. Suppliers are increasingly expected to demonstrate environmental credentials, provide ESG data, and show documented environmental management systems. ISO 14001 certification gives you the verified environmental management system, tracking capabilities, and third-party credibility that Bursa-listed companies require from their suppliers.',
+    answer: 'Bursa Malaysia requires listed issuers to publish sustainability statements, and many listed companies ask their suppliers for environmental information as part of that reporting. Suppliers may be asked to show environmental credentials, provide ESG data or describe how they manage environmental impacts. ISO 14001 certification gives you a documented environmental management system, tracking processes and a certificate from an accredited certification body that you can point to.',
   },
 ]
 

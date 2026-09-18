@@ -34,8 +34,7 @@ export default function FounderSection() {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   I founded AA Alive Sdn. Bhd. in 2016 with a simple mission: make compliance <em>accessible</em> for
-                  Malaysian businesses. Too many companies were paying inflated prices for consultants who barely showed
-                  up — or worse, handed them cookie-cutter documentation that failed at audit.
+                  Malaysian businesses, with practical documentation built around how each company actually operates.
                 </p>
                 <p>
                   With ISO 14001, I work a different way. <strong className="text-gray-900">You deal with me and my team directly</strong> —
@@ -43,14 +42,14 @@ export default function FounderSection() {
                   environmental management system that actually works for your business — not just one that passes the audit.
                 </p>
                 <p>
-                  Over the past 8+ years, we&apos;ve helped companies across manufacturing, oil & gas, construction,
-                  F&B, healthcare, and more achieve ISO 14001 certification. With the rise of ESG requirements,
-                  I&apos;ve expanded our expertise to include <strong className="text-gray-900">ESG reporting frameworks,
-                  carbon baseline measurement, and MGTC/GTFS green financing guidance</strong>. How we work isn&apos;t
-                  marketing — it&apos;s hands-on preparation and zero shortcuts.
+                  We prepare organisations for ISO 14001 certification audits, which are carried out by accredited
+                  certification bodies. As more customers and investors ask about ESG, we have added{' '}
+                  <strong className="text-gray-900">ESG reporting frameworks, carbon baseline measurement and
+                  MGTC/GTFS green financing guidance</strong> to our services. Our approach is hands-on preparation
+                  with your team.
                 </p>
                 <p className="font-medium text-gray-900">
-                  If you&apos;re serious about getting certified, I&apos;m happy to have a no-obligation chat about
+                  If you&apos;re considering ISO 14001, I&apos;m happy to have a no-obligation chat about
                   your situation. No hard sell — just honest advice on whether ISO 14001 makes sense for your business right now.
                 </p>
               </div>
@@ -84,8 +83,8 @@ export default function FounderSection() {
               <div className="mt-8 pt-6 border-t border-gray-200">
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
                   <div>
-                    <div className="text-xl font-bold text-gray-900">8+</div>
-                    <div className="text-xs text-gray-500">Years Experience</div>
+                    <div className="text-xl font-bold text-gray-900">2016</div>
+                    <div className="text-xs text-gray-500">Founded</div>
                   </div>
                   <div>
                     <div className="text-xl font-bold text-gray-900">14001</div>

@@ -7,13 +7,13 @@ import GclidTracker from '@/components/GclidTracker'
 export const metadata: Metadata = {
   metadataBase: new URL('https://esgiso.com'),
   title: {
-    default: 'ISO 14001 & ESG Certification Malaysia | From RM13,000',
+    default: 'ISO 14001 & ESG Consulting Malaysia | From RM13,000',
     template: '%s | ISO 14001 & ESG Malaysia'
   },
-  description: 'ISO 14001 & ESG certification in Malaysia from RM 13,000. ESG compliance, green financing via MGTC GTFS, ESG-mandated contracts. Expert EMS consultants, Malaysia-wide.',
+  description: 'ISO 14001 & ESG consulting in Malaysia from RM 13,000. We prepare you for ISO 14001 certification by an accredited certification body. EMS consultants, Malaysia-wide.',
   keywords: [
     'ISO 14001 certification Malaysia',
-    'ESG certification Malaysia',
+    'ESG consulting Malaysia',
     'ESG compliance Malaysia',
     'ISO 14001 Malaysia',
     'ISO 14001 consultant Malaysia',
@@ -54,22 +54,22 @@ export const metadata: Metadata = {
     locale: 'en_MY',
     url: 'https://esgiso.com',
     siteName: 'ISO 14001 Malaysia',
-    title: 'ISO 14001 & ESG Certification Malaysia | From RM13,000',
-    description: 'ISO 14001 & ESG certification in Malaysia from RM 13,000. Win ESG-mandated contracts, unlock green financing, and build your ESG reporting framework.',
+    title: 'ISO 14001 & ESG Consulting Malaysia | From RM13,000',
+    description: 'ISO 14001 & ESG consulting in Malaysia from RM 13,000. EMS implementation, ESG reporting frameworks and preparation for your certification body audit.',
     images: [
       {
         // /og-image.jpg never existed (404). logo.png is the only brand image in public/.
         url: '/logo.png',
         width: 180,
         height: 180,
-        alt: 'ISO 14001 & ESG Certification Malaysia',
+        alt: 'ISO 14001 & ESG Consulting Malaysia',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'ISO 14001 & ESG Certification Malaysia | From RM13,000',
-    description: 'ISO 14001 & ESG certification in Malaysia from RM 13,000. Win ESG-mandated contracts, unlock green financing, and build your ESG reporting framework.',
+    title: 'ISO 14001 & ESG Consulting Malaysia | From RM13,000',
+    description: 'ISO 14001 & ESG consulting in Malaysia from RM 13,000. EMS implementation, ESG reporting frameworks and preparation for your certification body audit.',
     images: ['/logo.png'],
   },
   alternates: {

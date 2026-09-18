@@ -33,7 +33,7 @@ const personSchema = {
   name: 'Evin Lim',
   jobTitle: 'Managing Director & Founder',
   description:
-    'Founder of AA Alive Sdn Bhd since 2016, expert in ISO certification, environmental management systems and ESG readiness in Malaysia.',
+    'Founder of AA Alive Sdn Bhd (2016); ISO management system, environmental management and ESG readiness consultant in Malaysia.',
   url: 'https://esgiso.com/about',
   worksFor: {
     '@id': 'https://esgiso.com/#organization',
@@ -96,9 +96,9 @@ export default function AboutPage() {
               esgiso.com is the environmental management and ESG consulting service of{' '}
               <strong className="text-gray-900">AA Alive Sdn Bhd</strong> (SSM 1204108-D), founded
               in 2016 by <strong className="text-gray-900">Evin Lim</strong>. We help Malaysian
-              businesses implement and certify ISO 14001:2015 environmental management systems,
-              build ESG reporting frameworks, measure carbon baselines and qualify for MGTC/GTFS
-              green financing.
+              businesses implement ISO 14001:2015 environmental management systems and prepare for
+              certification audits by accredited certification bodies, build ESG reporting frameworks,
+              measure carbon baselines and prepare MGTC/GTFS green financing applications.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Our founder</h2>
@@ -143,8 +143,7 @@ export default function AboutPage() {
             </h2>
             <ul className="space-y-2 mb-4 text-gray-600 list-disc pl-6">
               <li>AA Alive Sdn Bhd — registered with SSM Malaysia (1204108-D), operating since 2016</li>
-              <li>Malaysian businesses certified across manufacturing, oil &amp; gas, construction, F&amp;B, healthcare and logistics</li>
-              <li>Superbrands Malaysia 2025 (Malaysia&apos;s Choice) award recipient</li>
+              <li>Superbrands Malaysia 2025 (Malaysia&apos;s Choice) — awarded to AA Alive&apos;s medical-support brand, Evin Limb Specialist</li>
               <li>Nationwide service across Malaysia — remote-friendly engagements</li>
             </ul>
 
@@ -154,7 +153,7 @@ export default function AboutPage() {
                 <Link href="/iso-14001-certification-malaysia" className="text-primary-600 hover:text-primary-700 underline">
                   ISO 14001 certification consulting
                 </Link>{' '}
-                — gap analysis to certificate, from RM 13,000
+                — gap analysis to your certification audit, from RM 13,000
               </li>
               <li>ESG reporting frameworks, carbon baseline measurement and MGTC/GTFS green financing guidance</li>
               <li>

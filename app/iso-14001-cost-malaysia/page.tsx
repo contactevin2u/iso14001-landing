@@ -5,6 +5,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 import { CONTENT_LAST_UPDATED } from '@/lib/constants'
+import { PRICING_TIERS } from '@/lib/pricing'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Cost Malaysia | From RM13,000 (2026)',
@@ -45,9 +46,10 @@ export default function ISO14001CostMalaysia() {
             </h1>
             <p className="text-sm text-gray-500 mb-4">Last updated: {CONTENT_LAST_UPDATED}</p>
             <p className="text-xl text-gray-600 mb-8">
-              ISO 14001 certification consulting in Malaysia costs from RM 13,000 and takes around
-              30 days for most SMEs. Certification body audit fees are charged separately, typically
-              RM 4,000 to RM 12,000 for the initial Stage 1 and Stage 2 audits. Below is the full
+              ISO 14001 certification consulting in Malaysia costs from RM 13,000. The timeline depends
+              on your organisation&apos;s readiness and the certification body&apos;s audit schedule, and a
+              target date is agreed with you at gap analysis. Certification body audit fees are charged
+              separately, typically RM 4,000 to RM 12,000 for the initial Stage 1 and Stage 2 audits. Below is the full
               breakdown of every investment component — consulting fees, certification body costs,
               and ongoing maintenance.
             </p>
@@ -78,143 +80,38 @@ export default function ISO14001CostMalaysia() {
               </p>
 
               <div className="grid gap-6 mb-8">
-                <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <div className="bg-gray-50 p-4 border-b border-gray-200">
-                    <h3 className="font-bold text-gray-900 mb-1">SME Package</h3>
-                    <p className="text-2xl font-bold text-primary-600">From RM 13,000</p>
-                    <p className="text-sm text-gray-600">For small to medium enterprises (up to 50 employees)</p>
+                {PRICING_TIERS.map((tier) => (
+                  <div
+                    key={tier.name}
+                    className={`border rounded-lg overflow-hidden ${
+                      tier.highlight ? 'border-primary-200 bg-primary-50' : 'border-gray-200'
+                    }`}
+                  >
+                    <div
+                      className={`p-4 border-b ${
+                        tier.highlight ? 'bg-primary-100 border-primary-200' : 'bg-gray-50 border-gray-200'
+                      }`}
+                    >
+                      <h3 className="font-bold text-gray-900 mb-1">{tier.name} Package</h3>
+                      <p className="text-2xl font-bold text-primary-600">
+                        {tier.price === 'Custom' ? 'Custom Quote' : tier.price}
+                      </p>
+                      <p className="text-sm text-gray-600">{tier.description}</p>
+                    </div>
+                    <div className="p-4">
+                      <ul className="space-y-2 text-gray-600">
+                        {tier.features.map((feature) => (
+                          <li key={feature} className="flex items-start gap-2">
+                            <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                            </svg>
+                            <span>{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
-                  <div className="p-4">
-                    <ul className="space-y-2 text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Comprehensive gap analysis</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Environmental aspects/impacts identification</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Full EMS documentation package</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Implementation guidance</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Internal audit training</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Certification audit preparation</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <div className="bg-gray-50 p-4 border-b border-gray-200">
-                    <h3 className="font-bold text-gray-900 mb-1">Enterprise Package</h3>
-                    <p className="text-2xl font-bold text-primary-600">From RM 25,000</p>
-                    <p className="text-sm text-gray-600">For larger organizations (50-200 employees)</p>
-                  </div>
-                  <div className="p-4">
-                    <ul className="space-y-2 text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Everything in SME Package</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Legal requirements register development</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Extended on-site implementation support</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Environmental awareness training for all staff</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Full internal audit conduct</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Audit attendance support</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="border border-primary-200 rounded-lg overflow-hidden bg-primary-50">
-                  <div className="bg-primary-100 p-4 border-b border-primary-200">
-                    <h3 className="font-bold text-gray-900 mb-1">Corporate Package</h3>
-                    <p className="text-2xl font-bold text-primary-600">Custom Quote</p>
-                    <p className="text-sm text-gray-600">For large enterprises and multi-site organizations</p>
-                  </div>
-                  <div className="p-4">
-                    <ul className="space-y-2 text-gray-600">
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Everything in Enterprise Package</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Multi-site coordination</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Integration with ISO 9001/45001 if applicable</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Dedicated project manager</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-primary-600 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span>Ongoing maintenance support</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                ))}
               </div>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -315,19 +212,16 @@ export default function ISO14001CostMalaysia() {
                 Return on Investment
               </h2>
               <p className="text-gray-600 mb-4">
-                While ISO 14001 certification requires investment, most organizations achieve positive ROI through:
+                Organisations usually weigh the investment in ISO 14001 against factors such as:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
-                <li>10-20% reduction in energy costs</li>
-                <li>20-40% reduction in waste disposal costs</li>
+                <li>Energy, waste and material savings identified through the EMS</li>
                 <li>Reduced risk of fines and penalties under DOE enforcement of the Environmental Quality Act 1974</li>
-                <li>Access to new contracts and business opportunities</li>
-                <li>Lower insurance premiums</li>
+                <li>Being able to respond when customers or tenders ask for ISO 14001</li>
                 <li>Improved operational efficiency</li>
               </ul>
               <p className="text-gray-600 mb-4">
-                Certification is typically evaluated against the cost savings and new business it
-                unlocks; the payback period varies by organisation. Learn more about the <a href="/iso-14001-benefits" className="text-primary-600 hover:underline">benefits of ISO 14001 certification</a>.
+                Any savings and the payback period depend on your organisation and the actions you take. Learn more about the <a href="/iso-14001-benefits" className="text-primary-600 hover:underline">benefits of ISO 14001 certification</a>.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">

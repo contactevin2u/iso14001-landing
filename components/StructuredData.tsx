@@ -7,12 +7,11 @@ export default function StructuredData() {
     legalName: 'AA Alive Sdn. Bhd.',
     url: 'https://esgiso.com',
     logo: 'https://esgiso.com/logo.png',
-    description: 'Malaysia\'s ISO 14001 environmental management system certification consultants, serving Malaysian businesses since 2016.',
+    description: 'ISO 14001 environmental management system consultants in Malaysia, operating since 2016. We prepare organisations for certification audits by accredited certification bodies.',
     foundingDate: '2016-10-06',
     founder: {
       '@id': 'https://esgiso.com/#founder',
     },
-    award: 'Superbrands Malaysia (2025)',
     contactPoint: [
       {
         '@type': 'ContactPoint',
@@ -54,7 +53,7 @@ export default function StructuredData() {
     '@id': 'https://esgiso.com/#founder',
     name: 'Evin Lim',
     jobTitle: 'Managing Director & Founder',
-    description: 'Founder of AA Alive Sdn Bhd since 2016, expert in ISO certification and environmental management systems in Malaysia.',
+    description: 'Founder of AA Alive Sdn Bhd (2016); ISO management system and environmental management consultant in Malaysia.',
     url: 'https://my.linkedin.com/in/evin-lim-362a84258',
     worksFor: {
       '@type': 'Organization',
@@ -106,14 +105,14 @@ export default function StructuredData() {
         closes: '13:00',
       },
     ],
-    priceRange: 'RM13,000 - RM50,000+',
+    priceRange: 'RM13,000 - RM22,000; Enterprise by quotation',
     areaServed: {
       '@type': 'Country',
       name: 'Malaysia',
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'ISO 14001 & ESG Certification Services',
+      name: 'ISO 14001 & ESG Consulting Services',
       itemListElement: [
         {
           '@type': 'Offer',
@@ -177,7 +176,7 @@ export default function StructuredData() {
       '@id': 'https://esgiso.com/#organization',
     },
     serviceType: 'ISO Certification Consulting',
-    description: 'Complete ISO 14001:2015 environmental management system certification consulting — gap analysis, EMS documentation, staff training, internal audit, and certification audit preparation.',
+    description: 'ISO 14001:2015 environmental management system consulting — gap analysis, EMS documentation, staff training, internal audit and preparation for the certification body audit. The certificate is issued by an accredited certification body.',
     areaServed: {
       '@type': 'Country',
       name: 'Malaysia',
@@ -188,7 +187,7 @@ export default function StructuredData() {
       priceCurrency: 'MYR',
       priceValidUntil: '2026-12-31',
       availability: 'https://schema.org/InStock',
-      description: 'Complete ISO 14001 certification package starting from RM 13,000',
+      description: 'ISO 14001 Consultancy Package from RM 13,000. Certification body audit fees are quoted separately.',
     },
     providerMobility: 'dynamic',
   }

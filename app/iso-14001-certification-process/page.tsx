@@ -6,19 +6,19 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
-  title: 'ISO 14001 Process | 6 Steps to Get Certified',
-  description: 'ISO 14001 certification process in 6 steps, from gap analysis through to the certification audit. See what to expect at each stage.',
+  title: 'ISO 14001 Certification Process | Step-by-Step Guide',
+  description: 'The ISO 14001 certification process step by step, from the first consultation and gap analysis to the certification body audit. See what to expect at each stage.',
   keywords: ['ISO 14001 certification process', 'how to get ISO 14001', 'ISO 14001 steps', 'EMS implementation'],
   openGraph: {
-    title: 'ISO 14001 Process | 6 Steps to Get Certified',
-    description: 'ISO 14001 certification process in 6 steps, from gap analysis to the certification audit.',
+    title: 'ISO 14001 Certification Process | Step-by-Step Guide',
+    description: 'The ISO 14001 certification process step by step, from gap analysis to the certification body audit.',
     url: 'https://esgiso.com/iso-14001-certification-process',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Process | 6 Steps to Get Certified',
-    description: 'ISO 14001 certification in 6 steps. 30 days to certified.',
+    title: 'ISO 14001 Certification Process | Step-by-Step Guide',
+    description: 'The ISO 14001 certification process step by step, from gap analysis to the certification body audit.',
   },
   alternates: {
     canonical: 'https://esgiso.com/iso-14001-certification-process',
@@ -43,8 +43,8 @@ export default function ISO14001CertificationProcess() {
               ISO 14001 Certification Process
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              A comprehensive guide to achieving ISO 14001 certification. Understand every step of the journey,
-              from initial assessment to successful certification and beyond.
+              A guide to the ISO 14001 certification process. Understand every step of the journey,
+              from initial assessment to the certification body audit and beyond.
             </p>
 
             <div className="prose prose-lg max-w-none">
@@ -62,7 +62,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 1: Free Consultation (Day 1)
+                Step 1: Free Consultation
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification journey begins with a free initial consultation where our ISO consultants:
@@ -76,7 +76,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 2: Gap Analysis (Days 2-4)
+                Step 2: Gap Analysis
               </h3>
               <p className="text-gray-600 mb-4">
                 A comprehensive gap analysis compares your current practices against <a href="/iso-14001-requirements" className="text-primary-600 hover:underline">ISO 14001:2015 requirements</a>:
@@ -101,7 +101,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 3: Environmental Policy Development (Days 5-6)
+                Step 3: Environmental Policy Development
               </h3>
               <p className="text-gray-600 mb-4">
                 Develop an environmental policy that reflects your organization&apos;s commitment:
@@ -115,7 +115,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 4: Environmental Aspects Identification (Days 7-8)
+                Step 4: Environmental Aspects Identification
               </h3>
               <p className="text-gray-600 mb-4">
                 Identify and evaluate environmental aspects of your activities, products, and services:
@@ -130,7 +130,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 5: Legal Requirements Register (Days 9-10)
+                Step 5: Legal Requirements Register
               </h3>
               <p className="text-gray-600 mb-4">
                 Compile and maintain a register of compliance obligations:
@@ -144,7 +144,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 6: Documentation Development (Days 11-15)
+                Step 6: Documentation Development
               </h3>
               <p className="text-gray-600 mb-4">
                 Develop the required EMS documentation:
@@ -163,7 +163,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 7: Training and Awareness (Days 16-18)
+                Step 7: Training and Awareness
               </h3>
               <p className="text-gray-600 mb-4">
                 Ensure all personnel understand their environmental responsibilities:
@@ -177,7 +177,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 8: Operational Implementation (Days 19-22)
+                Step 8: Operational Implementation
               </h3>
               <p className="text-gray-600 mb-4">
                 Put the EMS into practice across the organization:
@@ -196,7 +196,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 9: Internal Audit (Days 23-25)
+                Step 9: Internal Audit
               </h3>
               <p className="text-gray-600 mb-4">
                 Conduct a thorough internal audit to verify EMS effectiveness:
@@ -210,7 +210,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 10: Management Review (Day 26)
+                Step 10: Management Review
               </h3>
               <p className="text-gray-600 mb-4">
                 Top management reviews the EMS to ensure continuing suitability and effectiveness:
@@ -228,7 +228,7 @@ export default function ISO14001CertificationProcess() {
               </h2>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 11: Stage 1 Audit (Days 27-28)
+                Step 11: Stage 1 Audit
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification body conducts a documentation review:
@@ -242,7 +242,7 @@ export default function ISO14001CertificationProcess() {
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Step 12: Stage 2 Audit (Days 29-30)
+                Step 12: Stage 2 Audit
               </h3>
               <p className="text-gray-600 mb-4">
                 The certification body verifies implementation effectiveness:
@@ -301,7 +301,7 @@ export default function ISO14001CertificationProcess() {
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Regulatory Compliance</h3>
-                  <p className="text-sm text-gray-600">Deep knowledge of Malaysian environmental regulations ensures full compliance.</p>
+                  <p className="text-sm text-gray-600">We help you build a legal requirements register covering the Malaysian environmental regulations that apply to you.</p>
                 </div>
               </div>
             </div>

@@ -17,12 +17,12 @@ export default function TrustBar() {
           </div>
           <div className="text-center">
             <div className="text-3xl sm:text-4xl font-bold text-white">Since 2016</div>
-            <div className="text-sm text-gray-400 mt-1">Trusted in Malaysia</div>
+            <div className="text-sm text-gray-400 mt-1">AA Alive Sdn Bhd</div>
           </div>
         </div>
 
         <div className="mt-8 pt-6 border-t border-gray-800">
-          <p className="text-center text-xs text-gray-500 uppercase tracking-wider mb-4">Trusted by companies certified with</p>
+          <p className="text-center text-xs text-gray-500 uppercase tracking-wider mb-4">We prepare you for audits by accredited certification bodies such as</p>
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 text-gray-500">
             <div className="text-center">
               <div className="text-sm font-semibold text-gray-400">SIRIM QAS</div>
@@ -30,15 +30,15 @@ export default function TrustBar() {
             </div>
             <div className="text-center">
               <div className="text-sm font-semibold text-gray-400">BSI</div>
-              <div className="text-[10px] text-gray-600">British Standards</div>
+              <div className="text-[10px] text-gray-600">Certification Body</div>
             </div>
             <div className="text-center">
               <div className="text-sm font-semibold text-gray-400">TUV SUD</div>
-              <div className="text-[10px] text-gray-600">German Quality</div>
+              <div className="text-[10px] text-gray-600">Certification Body</div>
             </div>
             <div className="text-center">
               <div className="text-sm font-semibold text-gray-400">Bureau Veritas</div>
-              <div className="text-[10px] text-gray-600">Global Leader</div>
+              <div className="text-[10px] text-gray-600">Certification Body</div>
             </div>
             <div className="text-center">
               <div className="text-sm font-semibold text-gray-400">SGS</div>

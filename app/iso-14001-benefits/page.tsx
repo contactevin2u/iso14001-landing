@@ -7,18 +7,18 @@ import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
   title: 'ISO 14001 Benefits | Why Your Business Needs It',
-  description: 'ISO 14001 benefits: reduce waste and operating costs, win green contracts, meet DOE compliance. See why Malaysian businesses get certified.',
+  description: 'ISO 14001 benefits: resource efficiency, DOE compliance, readiness for customer and tender requests, and ESG reporting. See why Malaysian businesses implement it.',
   keywords: ['ISO 14001 benefits', 'advantages of ISO 14001', 'environmental certification benefits', 'EMS benefits'],
   openGraph: {
     title: 'ISO 14001 Benefits | Why Your Business Needs It',
-    description: 'ISO 14001 benefits: cut costs 10-15%, win green contracts, meet DOE compliance.',
+    description: 'ISO 14001 benefits: resource efficiency, DOE compliance and readiness for customer and tender requests.',
     url: 'https://esgiso.com/iso-14001-benefits',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ISO 14001 Benefits | Why Your Business Needs It',
-    description: 'ISO 14001 benefits: cut costs, win contracts, meet DOE compliance.',
+    description: 'ISO 14001 benefits: resource efficiency, DOE compliance and readiness for customer requests.',
   },
   alternates: {
     canonical: 'https://esgiso.com/iso-14001-benefits',
@@ -43,28 +43,26 @@ export default function ISO14001Benefits() {
               Benefits of ISO 14001 Certification
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              ISO 14001 certification delivers measurable advantages for your organization, from cost savings
-              and regulatory compliance to competitive differentiation and stakeholder trust.
+              ISO 14001 gives your organization a structured way to manage its environmental impact, with
+              benefits ranging from resource efficiency and regulatory compliance to stakeholder confidence.
             </p>
 
             <div className="prose prose-lg max-w-none">
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                1. Significant Cost Savings
+                1. Resource Efficiency
               </h2>
               <p className="text-gray-600 mb-4">
-                One of the most compelling benefits of ISO 14001 is the potential for substantial cost reductions.
-                Organizations implementing an effective Environmental Management System (EMS) typically achieve:
+                Reviewing your environmental aspects often highlights opportunities to use resources more
+                efficiently. An Environmental Management System (EMS) can help you:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
-                <li><strong>10-20% reduction in energy consumption</strong> through improved monitoring and efficiency measures</li>
-                <li><strong>20-40% decrease in waste generation</strong> through better resource utilization and waste minimization</li>
-                <li><strong>Lower raw material costs</strong> through process optimization and reduced scrap</li>
-                <li><strong>Reduced waste disposal expenses</strong> through recycling and waste segregation programs</li>
-                <li><strong>Lower insurance premiums</strong> from demonstrating systematic risk management</li>
+                <li><strong>Monitor energy consumption</strong> and act on efficiency opportunities</li>
+                <li><strong>Reduce waste generation</strong> through better resource utilization and waste minimization</li>
+                <li><strong>Reduce raw material use</strong> through process optimization and less scrap</li>
+                <li><strong>Manage waste disposal</strong> through recycling and waste segregation programs</li>
               </ul>
               <p className="text-gray-600 mb-4">
-                A manufacturing company in Penang reported RM 450,000 in annual savings within two years of
-                ISO 14001 implementation, primarily from reduced energy consumption and improved waste management.
+                Any savings depend on your operations and the actions you decide to take.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -83,31 +81,31 @@ export default function ISO14001Benefits() {
               </ul>
               <p className="text-gray-600 mb-4">
                 By maintaining a legal requirements register and regular compliance evaluations, organizations
-                significantly reduce the risk of penalties, fines, and legal action from the Department of Environment (DOE).
+                reduce the risk of penalties, fines, and legal action from the Department of Environment (DOE).
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                3. Competitive Advantage
+                3. Customer, Tender and Supply-Chain Requests
               </h2>
               <p className="text-gray-600 mb-4">
-                ISO 14001 certification opens doors to new business opportunities:
+                ISO 14001 certification helps when customers and tenders ask about environmental management:
               </p>
               <div className="grid md:grid-cols-2 gap-4 mb-8">
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Government Contracts</h3>
-                  <p className="text-sm text-gray-600">Green procurement policies increasingly favor certified suppliers for government projects</p>
+                  <p className="text-sm text-gray-600">Green procurement policies can ask suppliers for evidence of environmental management</p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Multinational Supply Chains</h3>
-                  <p className="text-sm text-gray-600">Major corporations like Petronas, Shell, and automotive manufacturers require certified suppliers</p>
+                  <p className="text-sm text-gray-600">Larger buyers increasingly ask suppliers for ISO 14001 or evidence of environmental management</p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Export Markets</h3>
-                  <p className="text-sm text-gray-600">Access to European, Japanese, and other markets where environmental certification is expected</p>
+                  <p className="text-sm text-gray-600">Some overseas customers expect suppliers to show environmental certification</p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Tender Qualification</h3>
-                  <p className="text-sm text-gray-600">Many tenders now include ISO 14001 as a pre-qualification requirement</p>
+                  <p className="text-sm text-gray-600">Some tenders list ISO 14001 among their pre-qualification criteria</p>
                 </div>
               </div>
 
@@ -120,9 +118,9 @@ export default function ISO14001Benefits() {
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>Demonstrates genuine commitment to environmental responsibility</li>
-                <li>Provides third-party verification of your environmental claims</li>
-                <li>Differentiates your organization from competitors</li>
-                <li>Appeals to environmentally conscious consumers (73% prefer eco-friendly companies)</li>
+                <li>Provides third-party verification of your environmental management system</li>
+                <li>Gives customers and partners a recognised reference point</li>
+                <li>Supports communication with environmentally conscious customers</li>
                 <li>Attracts and retains environmentally conscious employees</li>
               </ul>
 
@@ -187,34 +185,14 @@ export default function ISO14001Benefits() {
                 a holistic approach to organizational management.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                Real Results from Malaysian Companies
-              </h2>
-              <div className="space-y-4 mb-8">
-                <div className="p-4 border border-gray-200 rounded-lg">
-                  <p className="text-gray-600 italic mb-2">
-                    &ldquo;Since achieving ISO 14001 certification, we&apos;ve reduced our waste disposal costs by 35%
-                    and won three major contracts that specifically required environmental certification.&rdquo;
-                  </p>
-                  <p className="text-sm text-gray-500">— Manufacturing company, Selangor</p>
-                </div>
-                <div className="p-4 border border-gray-200 rounded-lg">
-                  <p className="text-gray-600 italic mb-2">
-                    &ldquo;The systematic approach helped us identify inefficiencies we didn&apos;t know existed.
-                    Our energy costs dropped by 18% in the first year.&rdquo;
-                  </p>
-                  <p className="text-sm text-gray-500">— Chemical processing plant, Johor</p>
-                </div>
-              </div>
             </div>
 
             <div className="mt-12 p-8 bg-primary-50 rounded-xl border border-primary-100">
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">
-                Ready to Experience These Benefits?
+                Considering ISO 14001?
               </h3>
               <p className="text-gray-600 text-center mb-6">
-                Our expert consultants will help you implement ISO 14001 and realize measurable improvements
-                for your organization.
+                Our consultants help you implement ISO 14001 and prepare for your certification body audit.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a

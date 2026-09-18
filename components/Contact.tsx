@@ -13,9 +13,9 @@ declare global {
 const WHATSAPP_NUMBER = '+60102062070'
 
 const goals = [
-  'Win ESG-mandated tenders',
-  'Green financing (MGTC/GTFS)',
-  'MNC supply chain qualification',
+  'Tender or customer requirement',
+  'Green financing guidance (MGTC/GTFS)',
+  'Supplier / supply-chain request',
   'DOE compliance',
   'ESG reporting framework',
   'General enquiry',
@@ -80,11 +80,11 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="text-white">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Book Your Free ESG Readiness Assessment
+              Book Your Free Consultation
             </h2>
             <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-              Share your details and our ISO 14001 & ESG consultant will get back to you
-              within 24 hours. Free gap analysis discussion included.
+              Share your details and our ISO 14001 &amp; ESG consultant will get back to you
+              within 24 hours. Your first consultation is free.
             </p>
 
             <div className="space-y-6">
@@ -260,7 +260,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full px-8 py-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
               >
-                Get Free ESG Assessment
+                Book Free Consultation
               </button>
             </form>
           </div>

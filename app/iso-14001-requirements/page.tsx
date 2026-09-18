@@ -289,7 +289,7 @@ export default function ISO14001Requirements() {
                   href="/#contact"
                   className="inline-flex items-center justify-center px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
                 >
-                  Get Free Gap Analysis
+                  Book a Free Consultation
                 </a>
                 <a
                   href="/iso-14001-certification-process"

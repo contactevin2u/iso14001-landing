@@ -6,19 +6,19 @@ import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 import RelatedGuides from '@/components/RelatedGuides'
 
 export const metadata: Metadata = {
-  title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
-  description: 'ISO 14001 certification in Malaysia with expert EMS consultants. Gap analysis to certification audit. From RM 13,000.',
+  title: 'ISO 14001 Certification Malaysia | EMS Consulting Guide',
+  description: 'ISO 14001 certification in Malaysia: EMS consulting from gap analysis to your certification body audit. From RM 13,000.',
   keywords: ['ISO 14001 certification Malaysia', 'EMS certification Malaysia', 'environmental management system Malaysia', 'ISO 14001 consultant Malaysia'],
   openGraph: {
-    title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
-    description: 'ISO 14001 certification in Malaysia with expert EMS consultants, from gap analysis to certification audit.',
+    title: 'ISO 14001 Certification Malaysia | EMS Consulting Guide',
+    description: 'ISO 14001 certification in Malaysia: EMS consulting from gap analysis to your certification body audit.',
     url: 'https://esgiso.com/iso-14001-certification-malaysia',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ISO 14001 Certification Malaysia | Expert EMS Guide',
-    description: 'ISO 14001 certification in Malaysia. Expert EMS consultants, Malaysia-wide.',
+    title: 'ISO 14001 Certification Malaysia | EMS Consulting Guide',
+    description: 'ISO 14001 certification in Malaysia. EMS consultants, Malaysia-wide.',
   },
   alternates: {
     canonical: 'https://esgiso.com/iso-14001-certification-malaysia',
@@ -44,7 +44,7 @@ export default function ISO14001CertificationMalaysia() {
             </h1>
             <p className="text-xl text-gray-600 mb-8">
               Your complete guide to achieving ISO 14001 environmental management system certification in Malaysia.
-              Learn about requirements, process, costs, and how our expert consultants can help your organization.
+              Learn about requirements, process, costs, and how our consultants can help your organization.
             </p>
 
             <div className="prose prose-lg max-w-none">
@@ -52,15 +52,13 @@ export default function ISO14001CertificationMalaysia() {
                 Why Malaysian Businesses Need ISO 14001 Certification
               </h2>
               <p className="text-gray-600 mb-4">
-                In today&apos;s environmentally conscious business landscape, ISO 14001 certification has become
-                essential for Malaysian companies looking to demonstrate their commitment to sustainability.
-                As Malaysia continues its journey towards becoming a developed nation, environmental responsibility
-                is no longer optional—it&apos;s a business imperative.
+                ISO 14001 certification is widely used by Malaysian companies to demonstrate how they manage
+                their environmental impact, and it is often requested by larger buyers and supply chains.
               </p>
               <p className="text-gray-600 mb-4">
                 The Department of Environment (DOE) Malaysia has increasingly stringent requirements under the
-                Environmental Quality Act 1974. ISO 14001 certification provides a structured framework to ensure
-                compliance while driving operational efficiency and cost savings.
+                Environmental Quality Act 1974. ISO 14001 provides a structured framework to manage those
+                compliance obligations and to improve resource efficiency.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
@@ -83,11 +81,11 @@ export default function ISO14001CertificationMalaysia() {
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">
-                Industries in Malaysia Requiring ISO 14001
+                Industries in Malaysia Where ISO 14001 Is Common
               </h2>
               <p className="text-gray-600 mb-4">
                 While ISO 14001 is applicable to any organization regardless of size or industry, certain sectors
-                in Malaysia particularly benefit from certification:
+                in Malaysia commonly pursue certification:
               </p>
               <div className="grid md:grid-cols-2 gap-4 mb-8">
                 <div className="p-4 bg-gray-50 rounded-lg">
@@ -96,7 +94,7 @@ export default function ISO14001CertificationMalaysia() {
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Oil & Gas</h3>
-                  <p className="text-sm text-gray-600">Petronas contractors, refineries, and service providers</p>
+                  <p className="text-sm text-gray-600">Oil &amp; gas contractors, refineries, and service providers</p>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg">
                   <h3 className="font-semibold text-gray-900 mb-2">Construction</h3>
@@ -147,9 +145,9 @@ export default function ISO14001CertificationMalaysia() {
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>Meet DOE compliance requirements more effectively</li>
-                <li>Qualify for green procurement programs by government agencies</li>
-                <li>Access contracts with multinational corporations requiring certified suppliers</li>
-                <li>Reduce operational costs through improved resource efficiency</li>
+                <li>Respond to green procurement and tender requests for environmental management</li>
+                <li>Respond to customers and supply chains that ask suppliers for ISO 14001</li>
+                <li>Improve resource efficiency</li>
                 <li>Enhance corporate image and stakeholder confidence</li>
                 <li>Prepare for future environmental regulations</li>
               </ul>
@@ -171,8 +169,7 @@ export default function ISO14001CertificationMalaysia() {
                 Why Choose Our Consulting Services
               </h2>
               <p className="text-gray-600 mb-4">
-                With over a decade of experience helping Malaysian companies achieve ISO 14001 certification,
-                our team of certified consultants brings:
+                Operating since 2016, our consultants offer:
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-8">
                 <li>Deep understanding of Malaysian regulatory requirements</li>
@@ -184,7 +181,7 @@ export default function ISO14001CertificationMalaysia() {
 
             <div className="mt-12 p-8 bg-primary-50 rounded-xl border border-primary-100">
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">
-                Ready to Get ISO 14001 Certified?
+                Ready to Prepare for ISO 14001 Certification?
               </h3>
               <p className="text-gray-600 text-center mb-6">
                 Contact us today for a free consultation and customized proposal for your organization.

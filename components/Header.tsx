@@ -12,7 +12,10 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link href="/" className="flex flex-col min-h-0">
-            <span className="text-xl sm:text-2xl font-bold text-primary-700 leading-tight">ISO 14001</span>
+            <span className="flex items-baseline gap-1.5 leading-tight">
+              <span className="text-xl sm:text-2xl font-bold text-primary-700">ISO 14001</span>
+              <span className="text-[10px] sm:text-xs font-medium text-gray-500 whitespace-nowrap">by AA Alive Sdn Bhd</span>
+            </span>
             <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-gray-500 hidden xs:block">ESG & Environmental Compliance</span>
           </Link>
 
